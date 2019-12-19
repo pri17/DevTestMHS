@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Segment name="RGS" repeat="1" optional="R">
+  <Field name="Set ID - RGS" repeat ="1" optional="R" dataType="SI" length="4" sequence="1"></Field>
+  <Field name="Segment Action Code" repeat ="1" optional="C" dataType="ID" length="3" sequence="2" tableNumber="0206"></Field>
+  <Field name="Resource Group ID" repeat ="1" optional="O" length="250" sequence="3">
+    <Component name="Identifier" sequence="1" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Text" sequence="2" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Coding System" sequence="3" length="0" dataType="IS" optional="O"></Component>
+    <Component name="Alternate Identifier" sequence="4" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Alternate Text" sequence="5" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Alternate Coding System" sequence="6" length="0" dataType="IS" optional="O"></Component>
+  </Field>
+</Segment>

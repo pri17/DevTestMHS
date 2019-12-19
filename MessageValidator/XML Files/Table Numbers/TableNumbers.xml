@@ -1,0 +1,1682 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Tables>
+  <Table number="0001">
+    <Entry label="Female" value="F" />
+    <Entry label="Other" value="M" />
+    <Entry label="female" value="O" />
+    <Entry label="Unkown" value="U" />
+    <Entry label="Ambiguous" value="A" />
+    <Entry label="Not applicable" value="N" />
+  </Table>
+  <Table number="0002">
+    <Entry label="Separated" value="A" />
+    <Entry label="Divorced" value="D" />
+    <Entry label="Married" value="M" />
+    <Entry label="Single" value="S" />
+    <Entry label="Widowed" value="W" />
+    <Entry label="Common law" value="C" />
+    <Entry label="Living together" value="G" />
+    <Entry label="Domestic partner" value="P" />
+    <Entry label="Registered domestic partner" value="R" />
+    <Entry label="Legally Separated" value="E" />
+    <Entry label="Annulled" value="N" />
+    <Entry label="Interlocutory" value="I" />
+    <Entry label="Unmarried" value="B" />
+    <Entry label="Unknown" value="U" />
+    <Entry label="Other" value="O" />
+    <Entry label="Unreported" value="T" />
+  </Table>
+  <Table number="0003">
+    <Entry label="ADT/ACK - Admit/visit notification" value="A01" />
+    <Entry label="ADT/ACK - Transfer a patient" value="A02" />
+    <Entry label="ADT/ACK -  Discharge/end visit" value="A03" />
+    <Entry label="ADT/ACK -  Register a patient" value="A04" />
+    <Entry label="ADT/ACK -  Pre-admit a patient" value="A05" />
+    <Entry label="ADT/ACK -  Change an outpatient to an inpatient" value="A06" />
+    <Entry label="ADT/ACK -  Change an inpatient to an outpatient" value="A07" />
+    <Entry label="ADT/ACK -  Update patient information" value="A08" />
+    <Entry label="ADT/ACK -  Patient departing - tracking" value="A09" />
+    <Entry label="ADT/ACK -  Patient arriving - tracking" value="A10" />
+    <Entry label="ADT/ACK -  Cancel admit/visit notification" value="A11" />
+    <Entry label="ADT/ACK -  Cancel transfer" value="A12" />
+    <Entry label="ADT/ACK -  Cancel discharge/end visit" value="A13" />
+    <Entry label="ADT/ACK -  Pending admit" value="A14" />
+    <Entry label="ADT/ACK -  Pending transfer" value="A15" />
+    <Entry label="ADT/ACK -  Pending discharge" value="A16" />
+    <Entry label="ADT/ACK -  Swap patients" value="A17" />
+    <Entry label="ADT/ACK -  Merge patient information (for backward compatibility only)" value="A18" />
+    <Entry label="QRY/ADR -  Patient query" value="A19" />
+    <Entry label="ADT/ACK -  Bed status update" value="A20" />
+    <Entry label="ADT/ACK -  Patient goes on a “leave of absence”" value="A21" />
+    <Entry label="ADT/ACK -  Patient returns from a “leave of absence”" value="A22" />
+    <Entry label="ADT/ACK -  Delete a patient record" value="A23" />
+    <Entry label="ADT/ACK -  Link patient information" value="A24" />
+    <Entry label="ADT/ACK -  Cancel pending discharge" value="A25" />
+    <Entry label="ADT/ACK -  Cancel pending transfer" value="A26" />
+    <Entry label="ADT/ACK -  Cancel pending admit" value="A27" />
+    <Entry label="ADT/ACK -  Add person information" value="A28" />
+    <Entry label="ADT/ACK -  Delete person information" value="A29" />
+    <Entry label="ADT/ACK -  Merge person information (for backward compatibility only)" value="A30" />
+    <Entry label="ADT/ACK -  Update person information" value="A31" />
+    <Entry label="ADT/ACK -  Cancel patient arriving - tracking" value="A32" />
+    <Entry label="ADT/ACK -  Cancel patient departing - tracking" value="A33" />
+    <Entry label="ADT/ACK -  Merge patient information - patient ID only (for backward compatibility only)" value="A34" />
+    <Entry label="ADT/ACK -  Merge patient information - account number only (for backward compatibility only)" value="A35" />
+    <Entry label="ADT/ACK -  Merge patient information - patient ID and account number (for backward compatibility only)" value="A36" />
+    <Entry label="ADT/ACK -  Unlink patient information" value="A37" />
+    <Entry label="ADT/ACK - Cancel pre-admit" value="A38" />
+    <Entry label="ADT/ACK - Merge person - patient ID (for backward compatibility only)" value="A39" />
+    <Entry label="ADT/ACK - Merge patient - patient identifier list" value="A40" />
+    <Entry label="ADT/ACK - Merge account - patient account number" value="A41" />
+    <Entry label="ADT/ACK - Merge visit - visit number" value="A42" />
+    <Entry label="ADT/ACK - Move patient information - patient identifier list" value="A43" />
+    <Entry label="ADT/ACK - Move account information - patient account number" value="A44" />
+    <Entry label="ADT/ACK - Move visit information - visit number" value="A45" />
+    <Entry label="ADT/ACK - Change patient ID (for backward compatibility only)" value="A46" />
+    <Entry label="ADT/ACK - Change patient identifier list" value="A47" />
+    <Entry label="ADT/ACK - Change alternate patient ID (for backward compatibility only)" value="A48" />
+    <Entry label="ADT/ACK - Change patient account number" value="A49" />
+    <Entry label="ADT/ACK - Change visit number" value="A50" />
+    <Entry label="ADT/ACK - Change alternate visit ID" value="A51" />
+    <Entry label="ADT/ACK - Cancel leave of absence for a patient" value="A52" />
+    <Entry label="ADT/ACK - Cancel patient returns from a leave of absence" value="A53" />
+    <Entry label="ADT/ACK - Change attending doctor" value="A54" />
+    <Entry label="ADT/ACK - Cancel change attending doctor" value="A55" />
+    <Entry label="ADT/ACK - Update allergy information" value="A60" />
+    <Entry label="ADT/ACK - Change consulting doctor" value="A61" />
+    <Entry label="ADT/ACK - Cancel change consulting doctor" value="A62" />
+    <Entry label="PMU/ACK - Add personnel record" value="B01" />
+    <Entry label="PMU/ACK - Update personnel record" value="B02" />
+    <Entry label="PMU/ACK - Delete personnel record" value="B03" />
+    <Entry label="PMU/ACK - Active practicing person" value="B04" />
+    <Entry label="PMU/ACK - Deactivate practicing person" value="B05" />
+    <Entry label="PMU/ACK - Terminate practicing person" value="B06" />
+    <Entry label="CRM - Register a patient on a clinical trial" value="C01" />
+    <Entry label="CRM - Cancel a patient registration on clinical trial (for clerical mistakes only)" value="C02" />
+    <Entry label="CRM - Correct/update registration information" value="C03" />
+    <Entry label="CRM - Patient has gone off a clinical trial" value="C04" />
+    <Entry label="CRM - Patient enters phase of clinical trial" value="C05" />
+    <Entry label="CRM - Cancel patient entering a phase (clerical mistake)" value="C06" />
+    <Entry label="CRM - Correct/update phase information" value="C07" />
+    <Entry label="CRM - Patient has gone off phase of clinical trial" value="C08" />
+    <Entry label="CSU - Automated time intervals for reporting, like monthly" value="C09" />
+    <Entry label="CSU - Patient completes the clinical trial" value="C10" />
+    <Entry label="CSU - Patient completes a phase of the clinical trial" value="C11" />
+    <Entry label="CSU - Update/correction of patient order/result information" value="C12" />
+    <Entry label="RQI/RPI - Request for insurance information" value="I01" />
+    <Entry label="RQI/RPL - Request/receipt of patient selection display list" value="I02" />
+    <Entry label="RQI/RPR - Request/receipt of patient selection list" value="I03" />
+    <Entry label="RQD/RPI - Request for patient demographic data" value="I04" />
+    <Entry label="RQC/RCI - Request for patient clinical information" value="I05" />
+    <Entry label="RQC/RCL - Request/receipt of clinical data listing" value="I06" />
+    <Entry label="PIN/ACK - Unsolicited insurance information" value="I07" />
+    <Entry label="RQA/RPA - Request for treatment authorization information" value="I08" />
+    <Entry label="RQA/RPA - Request for modification to an authorization" value="I09" />
+    <Entry label="RQA/RPA - Request for resubmission of an authorization" value="I10" />
+    <Entry label="RQA/RPA - Request for cancellation of an authorization" value="I11" />
+    <Entry label="REF/RRI -  Patient referral" value="I12" />
+    <Entry label="EF/RRI - Modify patient referral" value="I13" />
+    <Entry label="REF/RRI - Cancel patient referral" value="I14" />
+    <Entry label="REF/RRI - Request patient referral status" value="I15" />
+    <Entry label="QCN/ACK - Cancel query/acknowledge message" value="J01" />
+    <Entry label="QSX/ACK - Cancel subscription/acknowledge message" value="J02" />
+    <Entry label="RSP - Segment pattern response" value="K11" />
+    <Entry label="RTB - Tabular response" value="K13" />
+    <Entry label="RDY - Display response" value="K15" />
+    <Entry label="RSP - Get person demographics response" value="K21" />
+    <Entry label="RSP - Find candidates response" value="K22" />
+    <Entry label="RSP - Get corresponding identifiers response" value="K23" />
+    <Entry label="RSP - Allocate identifiers response" value="K24" />
+    <Entry label="RSP - Personnel Information by Segment Response" value="K25" />
+    <Entry label="MFN/MFK - Master file not otherwise specified ( for backward compatibility only )" value="M01" />
+    <Entry label="MFN/MFK - Master file - staff practitioner" value="M02" />
+    <Entry label="MFN/MFK - Master file - test/observation ( for backward compatibility only )" value="M03" />
+    <Entry label="MFN/MFK - Master files charge description" value="M04" />
+    <Entry label="MFN/MFK - Patient location master file" value="M05" />
+    <Entry label="MFN/MFK - Clinical study with phases and schedules master file" value="M06" />
+    <Entry label="MFN/MFK - Clinical study without phases but with schedules master file" value="M07" />
+    <Entry label="MFN/MFK - Test/observation (numeric) master file" value="M08" />
+    <Entry label="MFN/MFK - Test/observation (categorical) master file" value="M09" />
+    <Entry label="MFN/MFK - Test /observation batteries master file" value="M10" />
+    <Entry label="MFN/MFK - Test/calculated observations master file" value="M11" />
+    <Entry label="MFN/MFK - Master file notification message" value="M12" />
+    <Entry label="NMQ/NMR - Application management query message" value="N01" />
+    <Entry label="NMD/ACK - Application management data message (unsolicited)" value="N02" />
+    <Entry label="ORM - Order message (also RDE, RDS, RGV, RAS)" value="O01" />
+    <Entry label="ORR - Order response (also RRE, RRD, RRG, RRA)" value="O02" />
+    <Entry label="OMD - Diet order" value="O03" />
+    <Entry label="ORD - Diet order acknowledgment" value="O04" />
+    <Entry label="OMS - Stock requisition order" value="O05" />
+    <Entry label="ORS - Stock requisition acknowledgment" value="O06" />
+    <Entry label="OMN - Non-stock requisition order" value="O07" />
+    <Entry label="ORN - Non-stock requisition acknowledgment" value="O08" />
+    <Entry label="OMP - Pharmacy/treatment order" value="O09" />
+    <Entry label="ORP - Pharmacy/treatment order acknowledgment" value="O10" />
+    <Entry label="RDE - Pharmacy/treatment encoded order" value="O11" />
+    <Entry label="RRE - Pharmacy/treatment encoded order acknowledgment" value="O12" />
+    <Entry label="RDS - Pharmacy/treatment dispense" value="O13" />
+    <Entry label="RRD - Pharmacy/treatment dispense acknowledgment" value="O14" />
+    <Entry label="RGV - Pharmacy/treatment give" value="O15" />
+    <Entry label="RRG - Pharmacy/treatment give acknowledgment" value="O16" />
+    <Entry label="RAS - Pharmacy/treatment administration" value="O17" />
+    <Entry label="RRA - Pharmacy/treatment administration acknowledgment" value="O18" />
+    <Entry label="OMG - General clinical order" value="O19" />
+    <Entry label="ORG/ORL - General clinical order response" value="O20" />
+    <Entry label="OML - Laboratory order" value="O21" />
+    <Entry label="ORL - General laboratory order response message to any OML" value="022" />
+    <Entry label="BAR/ACK - Add patient accounts" value="P01" />
+    <Entry label="BAR/ACK - Purge patient accounts" value="P02" />
+    <Entry label="DFT/ACK - Post detail financial transaction" value="P03" />
+    <Entry label="QRY/DSP - Generate bill and A/R statements" value="P04" />
+    <Entry label="BAR/ACK - Update account" value="P05" />
+    <Entry label="BAR/ACK - End account" value="P06" />
+    <Entry label="PEX - Unsolicited initial individual product experience report" value="P07" />
+    <Entry label="PEX - Unsolicited update individual product experience report" value="P08" />
+    <Entry label="SUR - Summary product experience report" value="P09" />
+    <Entry label="BAR/ACK -Transmit  Ambulatory Payment  Classification(APC)" value="P10" />
+    <Entry label="PPR - PC/ problem add" value="PC1" />
+    <Entry label="PPR - PC/ problem update" value="PC2" />
+    <Entry label="PPR - PC/ problem delete" value="PC3" />
+    <Entry label="QRY - PC/ problem query" value="PC4" />
+    <Entry label="PRR - PC/ problem response" value="PC5" />
+    <Entry label="PGL - PC/ goal add" value="PC6" />
+    <Entry label="PGL - PC/ goal update" value="PC7" />
+    <Entry label="PGL - PC/ goal delete" value="PC8" />
+    <Entry label="QRY - PC/ goal query" value="PC9" />
+    <Entry label="PPV - PC/ goal response" value="PCA" />
+    <Entry label="PPP - PC/ pathway (problem-oriented) add" value="PCB" />
+    <Entry label="PPP - PC/ pathway (problem-oriented) update" value="PCC" />
+    <Entry label="PPP - PC/ pathway (problem-oriented) delete" value="PCD" />
+    <Entry label="QRY - PC/ pathway (problem-oriented) query" value="PCE" />
+    <Entry label="PTR - PC/ pathway (problem-oriented) query response" value="PCF" />
+    <Entry label="PPG - PC/ pathway (goal-oriented) add" value="PCG" />
+    <Entry label="PPG - PC/ pathway (goal-oriented) update" value="PCH" />
+    <Entry label="PPG - PC/ pathway (goal-oriented) delete" value="PCJ" />
+    <Entry label="QRY - PC/ pathway (goal-oriented) query" value="PCK" />
+    <Entry label="PPT - PC/ pathway (goal-oriented) query response" value="PCL" />
+    <Entry label="QRY/DSR - Query sent for immediate response" value="Q01" />
+    <Entry label="QRY/QCK - Query sent for deferred response" value="Q02" />
+    <Entry label="DSR/ACK - Deferred response to a query" value="Q03" />
+    <Entry label="EQQ - Embedded query language query" value="Q04" />
+    <Entry label="UDM/ACK - Unsolicited display update message" value="Q05" />
+    <Entry label="OSQ/OSR - Query for order status" value="Q06" />
+    <Entry label="VQQ - Virtual table query" value="Q07" />
+    <Entry label="SPQ - Stored procedure request" value="Q08" />
+    <Entry label="RQQ - event replay query" value="Q09" />
+    <Entry label="QSB - Create subscription" value="Q16" />
+    <Entry label="QVR - Query for previous events" value="Q17" />
+    <Entry label="QBP - Get person demographics" value="Q21" />
+    <Entry label="QBP - Find candidates" value="Q22" />
+    <Entry label="QBP - Get corresponding identifiers" value="Q23" />
+    <Entry label="QBP - Allocate identifiers" value="Q24" />
+    <Entry label="QBP - Personnel Information by Segment Query" value="Q25" />
+    <Entry label="ROR - Pharmacy/treatment order response" value="Q26" />
+    <Entry label="RAR - Pharmacy/treatment administration information" value="Q27" />
+    <Entry label="RDR - Pharmacy/treatment dispense information" value="Q28" />
+    <Entry label="RER - Pharmacy/treatment encoded order information" value="Q29" />
+    <Entry label="RGR - Pharmacy/treatment dose information" value="Q30" />
+    <Entry label="Varies - Query cancellation" value="QNC" />
+    <Entry label="ORU/ACK - Unsolicited transmission of an observation message" value="R01" />
+    <Entry label="QRY - Query for results of observation" value="R02" />
+    <Entry label="QRY/DSR Display-oriented results, query/unsol. update (for backward compatibility only) (Replaced by Q05)" value="R03" />
+    <Entry label="ORF - Response to query; transmission of requested observation" value="R04" />
+    <Entry label="ROR - Pharmacy prescription order query response" value="ROR" />
+    <Entry label="EDR - Enhanced Display Response" value="R07" />
+    <Entry label="TBR - Tabular Data Response" value="R08" />
+    <Entry label="ERP - Event Replay Response" value="R09" />
+    <Entry label="OUL - Unsolicited laboratory observation" value="R21" />
+    <Entry label="SRM/SRR - Request new appointment booking" value="S01" />
+    <Entry label="SRM/SRR - Request appointment rescheduling" value="S02" />
+    <Entry label="SRM/SRR - Request appointment modification" value="S03" />
+    <Entry label="SRM/SRR - Request appointment cancellation" value="S04" />
+    <Entry label="SRM/SRR - Request appointment discontinuation" value="S05" />
+    <Entry label="SRM/SRR - Request appointment deletion" value="S06" />
+    <Entry label="SRM/SRR - Request addition of service/resource on appointment" value="S07" />
+    <Entry label="SRM/SRR - Request modification of service/resource on appointment" value="S08" />
+    <Entry label="SRM/SRR - Request cancellation of service/resource on appointment" value="S09" />
+    <Entry label="SRM/SRR - Request discontinuation of service/resource on appointment" value="S10" />
+    <Entry label="SRM/SRR - Request deletion of service/resource on appointment" value="S11" />
+    <Entry label="SIU/ACK - Notification of new appointment booking" value="S12" />
+    <Entry label="SIU/ACK - Notification of appointment rescheduling" value="S13" />
+    <Entry label="SIU/ACK - Notification of appointment modification" value="S14" />
+    <Entry label="SIU/ACK - Notification of appointment cancellation" value="S15" />
+    <Entry label="SIU/ACK - Notification of appointment discontinuation" value="S16" />
+    <Entry label="SIU/ACK - Notification of appointment deletion" value="S17" />
+    <Entry label="SIU/ACK - Notification of addition of service/resource on appointment" value="S18" />
+    <Entry label="SIU/ACK - Notification of modification of service/resource on appointment" value="S19" />
+    <Entry label="SIU/ACK - Notification of cancellation of service/resource on appointment" value="S20" />
+    <Entry label="SIU/ACK - Notification of discontinuation of service/resource on appointment" value="S21" />
+    <Entry label="SIU/ACK - Notification of deletion of service/resource on appointment" value="S22" />
+    <Entry label="SIU/ACK - Notification of blocked schedule time slot(s)" value="S23" />
+    <Entry label="SIU/ACK - Notification of opened (“unblocked”) schedule time slot(s)" value="S24" />
+    <Entry label="SQM/SQR - Schedule query message and response" value="S25" />
+    <Entry label="SIU/ACK Notification that patient did not show up for schedule appointment" value="S26" />
+    <Entry label="MDM/ACK - Original document notification" value="T01" />
+    <Entry label="MDM/ACK - Original document notification and content" value="T02" />
+    <Entry label="MDM/ACK - Document status change notification" value="T03" />
+    <Entry label="MDM/ACK - Document status change notification and content" value="T04" />
+    <Entry label="MDM/ACK - Document addendum notification" value="T05" />
+    <Entry label="MDM/ACK - Document addendum notification and content" value="T06" />
+    <Entry label="MDM/ACK - Document edit notification" value="T07" />
+    <Entry label="MDM/ACK - Document edit notification and content" value="T08" />
+    <Entry label="MDM/ACK - Document replacement notification" value="T09" />
+    <Entry label="MDM/ACK - Document replacement notification and content" value="T10" />
+    <Entry label="MDM/ACK - Document cancel notification" value="T11" />
+    <Entry label="QRY/DOC - Document query" value="T12" />
+    <Entry label="ESU/ACK - Automated equipment status update" value="U01" />
+    <Entry label="ESR/ACK - Automated equipment status request" value="U02" />
+    <Entry label="SSU/ACK - Specimen status update" value="U03" />
+    <Entry label="SSR/ACK - specimen status request" value="U04" />
+    <Entry label="INU/ACK  - Automated equipment inventory update" value="U05" />
+    <Entry label="INR/ACK - Automated equipment inventory request" value="U06" />
+    <Entry label="EAC/ACK - Automated equipment command" value="U07" />
+    <Entry label="EAR/ACK - Automated equipment response" value="U08" />
+    <Entry label="EAN/ACK - Automated equipment notification" value="U09" />
+    <Entry label="TCU/ACK - Automated equipment test code settings update" value="U10" />
+    <Entry label="TCR/ACK - Automated equipment test code settings request" value="U11" />
+    <Entry label="LSU/ACK - Automated equipment log/service update" value="U12" />
+    <Entry label="LSR/ACK - Automated equipment log/service request" value="U13" />
+    <Entry label="VXQ - Query for vaccination record" value="V01" />
+    <Entry label="VXX - Response to vaccination query returning multiple PID matches" value="V02" />
+    <Entry label="VXR - Vaccination record response" value="V03" />
+    <Entry label="VXU - Unsolicited vaccination record update" value="V04" />
+    <Entry label="MFQ/MFR - Master files query (use event same as asking for e.g., M05 - location)" value="Varies" />
+    <Entry label="ORU - Waveform result, unsolicited transmission of requested information" value="W01" />
+    <Entry label="QRF - Waveform result, response to query" value="W02" />
+  </Table>
+  <Table number="0004">
+    <Entry label="Emergency" value="E" />
+    <Entry label="Inpatient" value="I" />
+    <Entry label="Outpatient" value="O" />
+    <Entry label="Preadmit" value="P" />
+    <Entry label="Recurring patient" value="R" />
+    <Entry label="Obstetrics" value="B" />
+    <Entry label="Commercial Account" value="C" />
+    <Entry label="Not Applicable" value="N" />
+    <Entry label="Unknown" value="U" />
+  </Table>
+  <Table number="0005">
+    <Entry label="American Indian or Alaska Native" value="1002-5" />
+    <Entry label="Asian" value="2028-9" />
+    <Entry label="Black or African American" value="2054-5" />
+    <Entry label="Native Hawaiian or Other Pacific Islander" value="2076-8" />
+    <Entry label="White" value="2106-3" />
+    <Entry label="Other Race" value="2131-1" />
+  </Table>
+  <Table number="0006">
+    <Entry label="Agnostic" value="AGN" />
+    <Entry label="Atheist" value="ATH" />
+    <Entry label="Baha'i" value="BAH" />
+    <Entry label="Buddhist" value="BUD" />
+    <Entry label="Buddhist: Mahayana" value="BMA" />
+    <Entry label="Buddhist: Theravada" value="BTH" />
+    <Entry label="Buddhist: Tantrayana" value="BTA" />
+    <Entry label="Buddhist: Other" value="BOT" />
+    <Entry label="Chinese Folk Religionist" value="CFR" />
+    <Entry label="Christian" value="CHR" />
+    <Entry label="Christian: American Baptist Church" value="ABC" />
+    <Entry label="Christian: African Methodist Episcopal" value="AMT" />
+    <Entry label="Christian: African Methodist Episcopal Zion" value="AME" />
+    <Entry label="Christian: Anglican" value="ANG" />
+    <Entry label="Christian: Assembly of God" value="AOG" />
+    <Entry label="Christian: Baptist" value="BAP" />
+    <Entry label="Christian: Roman Catholic" value="CAT" />
+    <Entry label="Christian: Christian Reformed" value="CRR" />
+    <Entry label="Christian: Christian Science" value="CHS" />
+    <Entry label="Christian: Christian Missionary Alliance" value="CMA" />
+    <Entry label="Christian: Church of Christ" value="COC" />
+    <Entry label="Christian: Church of God" value="COG" />
+    <Entry label="Christian: Church of God in Christ" value="COI" />
+    <Entry label="Christian: Community" value="COM" />
+    <Entry label="Christian: Congregational" value="COL" />
+    <Entry label="Christian: Eastern Orthodox" value="EOT" />
+    <Entry label="Christian: Evangelical Church" value="EVC" />
+    <Entry label="Christian: Episcopalian" value="EPI" />
+    <Entry label="Christian: Free Will Baptist" value="FWB" />
+    <Entry label="Christian: Friends" value="FRQ" />
+    <Entry label="Christian: Greek Orthodox" value="GRE" />
+    <Entry label="Christian: Jehovah's Witness" value="JWN" />
+    <Entry label="Christian: Lutheran" value="LUT" />
+    <Entry label="Christian: Lutheran Missouri Synod" value="LMS" />
+    <Entry label="Christian: Mennonite" value="MEN" />
+    <Entry label="Christian: Methodist" value="MET" />
+    <Entry label="Christian: Latter-day Saints" value="MOM" />
+    <Entry label="Christian: Church of the Nazarene" value="NAZ" />
+    <Entry label="Christian: Orthodox" value="ORT" />
+    <Entry label="Christian: Other" value="COT" />
+    <Entry label="Christian: Other Protestant" value="PRC" />
+    <Entry label="Christian: Pentecostal" value="PEN" />
+    <Entry label="Christian: Other Pentecostal" value="COP" />
+    <Entry label="Christian: Presbyterian" value="PRE" />
+    <Entry label="Christian: Protestant" value="PRO" />
+    <Entry label="Christian: Friends" value="QUA" />
+    <Entry label="Christian: Reformed Church" value="REC" />
+    <Entry label="Christian: Reorganized Church of Jesus Christ-LDS" value="REO" />
+    <Entry label="Christian: Salvation Army" value="SAA" />
+    <Entry label="Christian: Seventh Day Adventist" value="SEV" />
+    <Entry label="Christian: Southern Baptist" value="SOU" />
+    <Entry label="Christian: United Church of Christ" value="UCC" />
+    <Entry label="Christian: United Methodist" value="UMD" />
+    <Entry label="Christian: Unitarian" value="UNI" />
+    <Entry label="Christian: Unitarian Universalist" value="UNU" />
+    <Entry label="Christian: Wesleyan" value="WES" />
+    <Entry label="Christian: Wesleyan Methodist" value="WMC" />
+    <Entry label="Confucian" value="CNF" />
+    <Entry label="Ethnic Religionist" value="ERL" />
+    <Entry label="Hindu" value="HIN" />
+    <Entry label="Hindu: Vaishnavites" value="HVA" />
+    <Entry label="Hindu: Shaivites" value="HSH" />
+    <Entry label="Hindu: Other" value="HOT" />
+    <Entry label="Jain" value="JAI" />
+    <Entry label="Jewish" value="JEW" />
+    <Entry label="Jewish: Conservative" value="JCO" />
+    <Entry label="Jewish: Orthodox" value="JOR" />
+    <Entry label="Jewish: Other" value="JOT" />
+    <Entry label="Jewish: Reconstructionist" value="JRC" />
+    <Entry label="Jewish: Reform" value="JRF" />
+    <Entry label="Jewish: Renewal" value="JRN" />
+    <Entry label="Muslim" value="MOS" />
+    <Entry label="Muslim: Sunni" value="MSU" />
+    <Entry label="Muslim: Shiite" value="MSH" />
+    <Entry label="Muslim: Other" value="MOT" />
+    <Entry label="Native American" value="NAM" />
+    <Entry label="New Religionist" value="NRL" />
+    <Entry label="Nonreligious" value="NOE" />
+    <Entry label="Other" value="OTH" />
+    <Entry label="Shintoist" value="SHN" />
+    <Entry label="Sikh" value="SIK" />
+    <Entry label="Spiritist" value="SPI" />
+    <Entry label="Unknown" value="VAR" />
+  </Table>
+  <Table number="0007">
+    <Entry label="Accident" value="A" />
+    <Entry label="Emergency" value="E" />
+    <Entry label="Labor and Delivery" value="L" />
+    <Entry label="Routine" value="R" />
+    <Entry label="Newborn (Birth in healthcare facility)" value="N" />
+    <Entry label="Urgent" value="U" />
+    <Entry label="Elective" value="C" />
+  </Table>
+  <Table number="0009">
+    <Entry label="No functional limitations" value="A0" />
+    <Entry label="Ambulates with assistive device" value="A1" />
+    <Entry label="Wheelchair/stretcher bound" value="A2" />
+    <Entry label="Comatose; non-responsive" value="A3" />
+    <Entry label="Disoriented" value="A4" />
+    <Entry label="Vision impaired" value="A5" />
+    <Entry label="Hearing impaired" value="A6" />
+    <Entry label="Speech impaired" value="A7" />
+    <Entry label="Non-English speaking" value="A8" />
+    <Entry label="Functional level unknown" value="A9" />
+    <Entry label="Oxygen therapy" value="B1" />
+    <Entry label="Special equipment (tubes, IVs, catheters)" value="B2" />
+    <Entry label="Amputee" value="B3" />
+    <Entry label="Mastectomy" value="B4" />
+    <Entry label="Paraplegic" value="B5" />
+    <Entry label="Pregnant" value="B6" />
+  </Table>
+  <Table number="0010" />
+  <Table number="0018" />
+  <Table number="0021" />
+  <Table number="0023">
+    <Entry label="Physician referral" value="1" />
+    <Entry label="Clinic referral" value="2" />
+    <Entry label="HMO referral" value="3" />
+    <Entry label="Transfer from a hospital" value="4" />
+    <Entry label="Transfer from a skilled nursing facility" value="5" />
+    <Entry label="Transfer from another health care facility" value="6" />
+    <Entry label="Emergency room" value="7" />
+    <Entry label="Court/law enforcement" value="8" />
+    <Entry label="Information not avaiLabel" value="9" />
+  </Table>
+  <Table number="0032" />
+  <Table number="0044" />
+  <Table number="0045" />
+  <Table number="0046" />
+  <Table number="0051" />
+  <Table number="0052">
+    <Entry label="Admitting" value="A" />
+    <Entry label="Working" value="W" />
+    <Entry label="Final" value="F" />
+  </Table>
+  <Table number="0053" />
+  <Table number="0055" />
+  <Table number="0056" />
+  <Table number="0061">
+    <Entry label="Check digit algorithm in the US National Provider Identifier" value="NPI" />
+    <Entry label="ISO 7064: 1983" value="ISO" />
+    <Entry label="Mod 10 algorithm" value="M10" />
+    <Entry label="Mod 11 algorithm" value="M11" />
+  </Table>
+  <Table number="0064" />
+  <Table number="0069" />
+  <Table number="0073" />
+  <Table number="0076">
+    <Entry label="General acknowledgment message" value="ACK" />
+    <Entry label="ADT response" value="ADR" />
+    <Entry label="ADT message" value="ADT" />
+    <Entry label="Add/change billing account" value="BAR" />
+    <Entry label="Clinical study registration message" value="CRM" />
+    <Entry label="Unsolicited study data message" value="CSU" />
+    <Entry label="Detail financial transactions" value="DFT" />
+    <Entry label="Document response" value="DOC" />
+    <Entry label="Display response" value="DSR" />
+    <Entry label="Automated equipment command message" value="EAC" />
+    <Entry label="Automated equipment notification message" value="EAN" />
+    <Entry label="Automated equipment response message" value="EAR" />
+    <Entry label="Enhanced display response" value="EDR" />
+    <Entry label="Embedded query language query" value="EQQ" />
+    <Entry label="Event replay response" value="ERP" />
+    <Entry label="Automated equipment status update acknowledgment message" value="ESR" />
+    <Entry label="Automated equipment status update message" value="ESU" />
+    <Entry label="Automated equipment inventory request message" value="INR" />
+    <Entry label="Automated equipment inventory update message" value="INU" />
+    <Entry label="Automated equipment log/service request message" value="LSR" />
+    <Entry label="Automated equipment log/service update message" value="LSU" />
+    <Entry label="Delayed Acknowledgment (Retained for backward compatibility only" value="MCF" />
+    <Entry label="Medical document management" value="MDM" />
+    <Entry label="Master files delayed application acknowledgment" value="MFD" />
+    <Entry label="Master files application acknowledgment" value="MFK" />
+    <Entry label="Master files notification" value="MFN" />
+    <Entry label="Master files query" value="MFQ" />
+    <Entry label="Master files response" value="MFR" />
+    <Entry label="Application management data message" value="NMD" />
+    <Entry label="Application management query message" value="NMQ" />
+    <Entry label="Application management response message" value="NMR" />
+    <Entry label="Dietary order" value="OMD" />
+    <Entry label="General clinical order message" value="OMG" />
+    <Entry label="Laboratory order message" value="OML" />
+    <Entry label="Non-stock requisition order message" value="OMN" />
+    <Entry label="Pharmacy/treatment order message" value="OMP" />
+    <Entry label="Stock requisition order message" value="OMS" />
+    <Entry label="Dietary order acknowledgment message" value="ORD" />
+    <Entry label="Query for results of observation" value="ORF" />
+    <Entry label="General clinical order acknowledgment message" value="ORG" />
+    <Entry label="Laboratory acknowledgment message (unsolicited)" value="ORL" />
+    <Entry label="Pharmacy/treatment order message" value="ORM" />
+    <Entry label="Non-stock requisition - General order acknowledgment message" value="ORN" />
+    <Entry label="Pharmacy/treatment order acknowledgment message" value="ORP" />
+    <Entry label="General order response message response to any ORM" value="ORR" />
+    <Entry label="Stock requisition - Order acknowledgment message" value="ORS" />
+    <Entry label="Unsolicited transmission of an observation message" value="ORU" />
+    <Entry label="Query response for order status" value="OSQ" />
+    <Entry label="Query response for order status" value="OSR" />
+    <Entry label="Unsolicited laboratory observation message" value="OUL" />
+    <Entry label="Product experience message" value="PEX" />
+    <Entry label="Patient goal message" value="PGL" />
+    <Entry label="Patient insurance information" value="PIN" />
+    <Entry label="Add personnel record" value="PMU" />
+    <Entry label="Patient pathway message (goal-oriented)" value="PPG" />
+    <Entry label="Patient pathway message (problem-oriented)" value="PPP" />
+    <Entry label="Patient problem message" value="PPR" />
+    <Entry label="Patient pathway goal-oriented response" value="PPT" />
+    <Entry label="Patient goal response" value="PPV" />
+    <Entry label="Patient problem response" value="PRR" />
+    <Entry label="Patient pathway problem-oriented response" value="PTR" />
+    <Entry label="Query by parameter" value="QBP" />
+    <Entry label="Deferred query" value="QCK" />
+    <Entry label="Cancel query" value="QCN" />
+    <Entry label="Query, original mode" value="QRY" />
+    <Entry label="Create subscription" value="QSB" />
+    <Entry label="Cancel subscription/acknowledge message" value="QSX" />
+    <Entry label="Query for previous events" value="QVR" />
+    <Entry label="Pharmacy/treatment administration information" value="RAR" />
+    <Entry label="Pharmacy/treatment administration message" value="RAS" />
+    <Entry label="Return clinical information" value="RCI" />
+    <Entry label="Return clinical list" value="RCL" />
+    <Entry label="Pharmacy/treatment encoded order message" value="RDE" />
+    <Entry label="Pharmacy/treatment dispense information" value="RDR" />
+    <Entry label="Pharmacy/treatment dispense message" value="RDS" />
+    <Entry label="Display based response" value="RDY" />
+    <Entry label="Patient referral" value="REF" />
+    <Entry label="Pharmacy/treatment encoded order information" value="RER" />
+    <Entry label="Pharmacy/treatment dose information" value="RGR" />
+    <Entry label="Pharmacy/treatment give message" value="RGV" />
+    <Entry label="Pharmacy/treatment order response" value="ROR" />
+    <Entry label="Return patient authorization" value="RPA" />
+    <Entry label="Return patient information" value="RPI" />
+    <Entry label="Return patient display list" value="RPL" />
+    <Entry label="Return patient list" value="RPR" />
+    <Entry label="Request patient authorization" value="RQA" />
+    <Entry label="Request clinical information" value="RQC" />
+    <Entry label="Request patient information" value="RQI" />
+    <Entry label="Request patient demographics" value="RQP" />
+    <Entry label="Event replay query" value="RQQ" />
+    <Entry label="Pharmacy/treatment administration acknowledgment message" value="RRA" />
+    <Entry label="Pharmacy/treatment dispense acknowledgment message" value="RRD" />
+    <Entry label="Pharmacy/treatment encoded order acknowledgment message" value="RRE" />
+    <Entry label="Pharmacy/treatment give acknowledgment message" value="RRG" />
+    <Entry label="Return referral information" value="RRI" />
+    <Entry label="Segment pattern response" value="RSP" />
+    <Entry label="Tabular response" value="RTB" />
+    <Entry label="Schedule information unsolicited" value="SIU" />
+    <Entry label="Schedule query message" value="SQM" />
+    <Entry label="Schedule query response" value="SQR" />
+    <Entry label="Schedule request message" value="SRM" />
+    <Entry label="Scheduled request response" value="SRR" />
+    <Entry label="Specimen status request message" value="SSR" />
+    <Entry label="Specimen status update message" value="SSU" />
+    <Entry label="Summary product experience report" value="SUR" />
+    <Entry label="Tabular data response" value="TBR" />
+    <Entry label="Automated equipment test code settings request message" value="TCR" />
+    <Entry label="Automated equipment test code settings update message" value="TCU" />
+    <Entry label="Unsolicited display update message" value="UDM" />
+    <Entry label="Virtual table query" value="VQQ" />
+    <Entry label="Query for vaccination record" value="VXQ" />
+    <Entry label="Vaccination record response" value="VXR" />
+    <Entry label="Unsolicited vaccination record update" value="VXU" />
+    <Entry label="Response for vaccination query with multiple PID matches" value="VXX" />
+  </Table>
+  <Table number="0078">
+    <Entry label="Below low normal" value="L" />
+    <Entry label="Above high normal" value="H" />
+    <Entry label="Below lower panic limits" value="LL" />
+    <Entry label="Above upper panic limits" value="HH" />
+    <Entry label="Below absolute low-off instrument scale" value="&lt;" />
+    <Entry label="Above absolute high-off instrument scale" value="&gt;" />
+    <Entry label="Normal (applies to non-numeric results)" value="N" />
+    <Entry label="Abnormal (applies to non-numeric results)" value="A" />
+    <Entry label="Very abnormal (applies to non-numeric units, analogous to panic limits for numeric units)" value="AA" />
+    <Entry label="Significant change up" value="U" />
+    <Entry label="Significant change down" value="D" />
+    <Entry label="Better--use when direction not relevant" value="B" />
+    <Entry label="Worse--use when direction not relevant" value="W" />
+    <Entry label="Susceptible. Indicates for microbiology susceptibilities only." value="S" />
+    <Entry label="Resistant. Indicates for microbiology susceptibilities only." value="R" />
+    <Entry label="Intermediate. Indicates for microbiology susceptibilities only." value="I" />
+    <Entry label="Moderately susceptible. Indicates for microbiology susceptibilities only." value="MS" />
+    <Entry label="Very susceptible. Indicates for microbiology susceptibilities only." value="VS" />
+  </Table>
+  <Table number="0080">
+    <Entry label="An age-based population" value="A" />
+    <Entry label="None - generic normal range" value="N" />
+    <Entry label="A race-based population" value="R" />
+    <Entry label="A sex-based population" value="S" />
+  </Table>
+  <Table number="0083">
+    <Entry label="Outlier days" value="D" />
+    <Entry label="Outlier cost" value="C" />
+  </Table>
+  <Table number="0085">
+    <Entry label="Record coming over is a correction and thus replaces a final result" value="C" />
+    <Entry label="Deletes the OBX record" value="D" />
+    <Entry label="Final results; Can only be changed with a corrected result." value="F" />
+    <Entry label="Specimen in lab; results pending" value="I" />
+    <Entry label="Not asked; used to affirmatively document that the observation identified in the OBX was not sought when the universal service ID in OBR-4 implies that it would be sought." value="N" />
+    <Entry label="Order detail description only (no result)" value="O" />
+    <Entry label="Preliminary results" value="P" />
+    <Entry label="Results entered -- not verified" value="R" />
+    <Entry label="Partial results" value="S" />
+    <Entry label="Results cannot be obtained for this observation" value="X" />
+    <Entry label="Results status change to final without retransmitting results already sent as ‘preliminary.’  E.g., radiology changes status from preliminary to final" value="U" />
+    <Entry label="Post original as wrong, e.g., transmitted for wrong patient" value="W" />
+  </Table>
+  <Table number="0087" />
+  <Table number="0092">
+    <Entry label="Re-admission" value="R" />
+  </Table>
+  <Table number="0099" />
+  <Table number="0103">
+    <Entry label="Debugging" value="D" />
+    <Entry label="Production" value="P" />
+    <Entry label="Training" value="T" />
+  </Table>
+  <Table number="0104">
+    <Entry label="Release 2.0" value="2.0" />
+    <Entry label="Demo 2.0" value="2.0D" />
+    <Entry label="Release 2.1" value="2.1" />
+    <Entry label="Release 2.2" value="2.2" />
+    <Entry label="Release 2.3" value="2.3" />
+    <Entry label="Release 2.3.1" value="2.3.1" />
+    <Entry label="Release 2.4" value="2.4" />
+    <Entry label="Release 2.5" value="2.5" />
+    <Entry label="Release 2.5.1" value="2.5.1" />
+  </Table>
+  <Table number="0105">
+    <Entry label="Ancillary (filler) department is source of comment" value="L" />
+    <Entry label="Orderer (placer) is source of comment" value="P" />
+    <Entry label="Other system is source of comment" value="O" />
+  </Table>
+  <Table number="0110" />
+  <Table number="0111" />
+  <Table number="0112">
+    <Entry label="Discharged to home or self care (routine discharge)" value="01" />
+    <Entry label="Discharged/transferred to another short term general hospital for inpatient care" value="02" />
+    <Entry label="Discharged/transferred to skilled nursing facility (SNF)" value="03" />
+    <Entry label="Discharged/transferred to an intermediate care facility (ICF)" value="04" />
+    <Entry label="Discharged/transferred to another type of institution for inpatient care or referred for outpatient services to another institution" value="05" />
+    <Entry label="Discharged/transferred to home under care of organized home health service organization" value="06" />
+    <Entry label="Left against medical advice or discontinued care" value="07" />
+    <Entry label="Discharged/transferred to home under care of Home IV provider" value="08" />
+    <Entry label="Admitted as an inpatient to this hospital" value="09" />
+    <Entry label="Discharge to be defined at state level, if necessary" value="10 - 19" />
+    <Entry label="Expired (i.e. dead)" value="20" />
+    <Entry label="Expired to be defined at state level, if necessary" value="21 - 29" />
+    <Entry label="Still patient or expected to return for outpatient services (i.e. still a patient)" value="30" />
+    <Entry label="Still patient to be defined at state level, if necessary  (i.e. still a patient)" value="31 - 39" />
+    <Entry label="Expired (i.e. died) at home" value="40" />
+    <Entry label="Expired (i.e. died) in a medical facility; e.g., hospital, SNF, ICF, or free standing hospice" value="41" />
+    <Entry label="Expired (i.e. died)  - place unknown" value="42" />
+  </Table>
+  <Table number="0113" />
+  <Table number="0114" />
+  <Table number="0115" />
+  <Table number="0116">
+    <Entry label="Closed" value="C" />
+    <Entry label="Housekeeping" value="H" />
+    <Entry label="Occupied" value="O" />
+    <Entry label="Unoccupied" value="U" />
+    <Entry label="Contaminated" value="K" />
+    <Entry label="Isolated" value="I" />
+  </Table>
+  <Table number="0117" />
+  <Table number="0118" />
+  <Table number="0125">
+    <Entry label="Address" value="AD" />
+    <Entry label="Coded Entry" value="CE" />
+    <Entry label="Coded Element With Formatted Values" value="CF" />
+    <Entry label="Composite ID With Check Digit" value="CK" />
+    <Entry label="Composite ID And Name" value="CN" />
+    <Entry label="Composite Price" value="CP" />
+    <Entry label="Extended Composite ID With Check Digit" value="CX" />
+    <Entry label="Date" value="DT" />
+    <Entry label="Encapsulated Data" value="ED" />
+    <Entry label="Formatted Text (Display)" value="FT" />
+    <Entry label="Money" value="MO" />
+    <Entry label="Numeric" value="NM" />
+    <Entry label="Person Name" value="PN" />
+    <Entry label="Reference Pointer" value="RP" />
+    <Entry label="Structured Numeric" value="SN" />
+    <Entry label="String Data." value="ST" />
+    <Entry label="Time" value="TM" />
+    <Entry label="Telephone Number" value="TN" />
+    <Entry label="Time Stamp (Date &amp; Time)" value="TS" />
+    <Entry label="Text Data (Display)" value="TX" />
+    <Entry label="Extended Address" value="XAD" />
+    <Entry label="Extended Composite Name And Number For Persons" value="XCN" />
+    <Entry label="Extended Composite Name And Number For Organizations" value="XON" />
+    <Entry label="Extended Person Name" value="XPN" />
+    <Entry label="Extended Telecommunications Number" value="XTN" />
+  </Table>
+  <Table number="0129" />
+  <Table number="0130">
+    <Entry label="Teaching" value="TE" />
+    <Entry label="Home" value="HO" />
+    <Entry label="Mobile Unit" value="MO" />
+    <Entry label="Phone" value="PH" />
+  </Table>
+  <Table number="0136">
+    <Entry label="Yes" value="Y" />
+    <Entry label="No" value="N" />
+  </Table>
+  <Table number="0140">
+    <Entry label="US Army" value="USA" />
+    <Entry label="US Navy" value="USN" />
+    <Entry label="US Air Force" value="USAF" />
+    <Entry label="US Marine Corps" value="USMC" />
+    <Entry label="US Coast Guard" value="USCG" />
+    <Entry label="US Public Health Service" value="USPHS" />
+    <Entry label="National Oceanic and Atmospheric Administration" value="NOAA" />
+    <Entry label="North Atlantic Treaty Organization" value="NATO" />
+    <Entry label="Australian Army" value="AUSA" />
+    <Entry label="Australian Navy" value="AUSN" />
+    <Entry label="Australian Air Force" value="AUSAF" />
+  </Table>
+  <Table number="0141">
+    <Entry label="Enlisted" value="E1 - E9" />
+    <Entry label="Officers" value="O1 - O9" />
+    <Entry label="Warrant Officers" value="W1 - W4" />
+  </Table>
+  <Table number="0142">
+    <Entry label="Active duty" value="ACT" />
+    <Entry label="Retired" value="RET" />
+    <Entry label="Deceased" value="DEC" />
+  </Table>
+  <Table number="0155">
+    <Entry label="Always" value="AL" />
+    <Entry label="Never" value="NE" />
+    <Entry label="Error/reject conditions only" value="ER" />
+    <Entry label="Successful completion only" value="SU" />
+  </Table>
+  <Table number="0171" />
+  <Table number="0172" />
+  <Table number="0189">
+    <Entry label="British" value="A" />
+    <Entry label="Irish" value="B" />
+    <Entry label="Any other White background" value="C" />
+    <Entry label="White and Black Caribbean" value="D" />
+    <Entry label="White and Black African" value="E" />
+    <Entry label="White and Asian" value="F" />
+    <Entry label="Any other mixed background" value="G" />
+    <Entry label="Indian" value="H" />
+    <Entry label="Pakistani" value="J" />
+    <Entry label="Bangladeshi" value="K" />
+    <Entry label="Any other Asian background" value="L" />
+    <Entry label="Caribbean" value="M" />
+    <Entry label="African" value="N" />
+    <Entry label="Any other Black background" value="P" />
+    <Entry label="Chinese" value="R" />
+    <Entry label="Any other ethnic group" value="S" />
+    <Entry label="Not stated" value="Z" />
+  </Table>
+  <Table number="0190">
+    <Entry label="Bad address" value="BA" />
+    <Entry label="Birth (nee) (birth address, not otherwise specified)" value="N" />
+    <Entry label="Birth delivery location (address where birth occurred)" value="BDL" />
+    <Entry label="Country Of Origin" value="F" />
+    <Entry label="Current Or Temporary" value="C" />
+    <Entry label="Firm/Business" value="B" />
+    <Entry label="Home" value="H" />
+    <Entry label="Legal Address" value="L" />
+    <Entry label="Mailing" value="M" />
+    <Entry label="Office" value="O" />
+    <Entry label="Permanent" value="P" />
+    <Entry label="Registry home. Refers to the information system, typically managed by a public health agency, that stores patient information such as immunization histories or cancer data, regardless of where the patient obtains services." value="RH" />
+    <Entry label="Residence at birth (home address at time of birth)" value="BR" />
+  </Table>
+  <Table number="0200">
+    <Entry label="Alias Name" value="A" />
+    <Entry label="Name at Birth" value="B" />
+    <Entry label="Adopted Name" value="C" />
+    <Entry label="Display Name" value="D" />
+    <Entry label="Licensing Name" value="I" />
+    <Entry label="Legal Name" value="L" />
+    <Entry label="Maiden Name" value="M" />
+    <Entry label="Nickname /”Call me” Name/Street Name" value="N" />
+    <Entry label="Name of Partner/Spouse (retained for backward compatibility only)" value="P" />
+    <Entry label="Registered Name (animals only)" value="R" />
+    <Entry label="Coded Pseudo-Name to ensure anonymity" value="S" />
+    <Entry label="Indigenous/Tribal/Community Name" value="T" />
+    <Entry label="Unspecified" value="U" />
+  </Table>
+  <Table number="0201">
+    <Entry label="Primary Residence Number" value="PRN" />
+    <Entry label="Other Residence Number" value="ORN" />
+    <Entry label="Work Number" value="WPN" />
+    <Entry label="Vacation Home Number" value="VHN" />
+    <Entry label="Answering Service Number" value="ASN" />
+    <Entry label="Emergency Number" value="EMR" />
+    <Entry label="Network (email) Address" value="NET" />
+    <Entry label="Beeper Number" value="BPN" />
+  </Table>
+  <Table number="0202">
+    <Entry label="Telephone" value="PH&#x9;" />
+    <Entry label="Fax" value="FX" />
+    <Entry label="Modem" value="MD" />
+    <Entry label="Cellular Phone" value="CP" />
+    <Entry label="Beeper" value="BP" />
+    <Entry label="Internet Address: Use Only If Telecommunication Use Code Is NET" value="Internet" />
+    <Entry label="X.400 email address: Use Only If Telecommunication Use Code Is NET" value="X.400" />
+    <Entry label="Telecommunications Device for the Deaf" value="TDD" />
+    <Entry label="Teletypewriter" value="TTY" />
+  </Table>
+  <Table number="0203">
+    <Entry label="American Express" value="AM" />
+    <Entry label="Account number" value="AN" />
+    <Entry label="Bank Account Number" value="BA" />
+    <Entry label="Birth registry number" value="BR" />
+    <Entry label="Breed Registry Number" value="BRN" />
+    <Entry label="Consultant Episode" value="CE"/>
+    <Entry label="Diner’s Club card" value="DI" />
+    <Entry label="Driver’s license number" value="DL" />
+    <Entry label="Doctor number" value="DN" />
+    <Entry label="Donor Registration Number" value="DR" />
+    <Entry label="Discover Card" value="DS" />
+    <Entry label="Employee number" value="EI" />
+    <Entry label="Employer number" value="EN" />
+    <Entry label="Facility ID" value="FI" />
+    <Entry label="Guarantor internal identifier" value="GI" />
+    <Entry label="Guarantor external  identifier" value="GN" />
+    <Entry label="Health Card Number" value="HC" />
+    <Entry label="Jurisdictional health number (Canada)" value="JHN" />
+    <Entry label="License number" value="LN" />
+    <Entry label="Local Registry ID" value="LR" />
+    <Entry label="Medicaid number" value="MA" />
+    <Entry label="Medicare number" value="MC" />
+    <Entry label="Microchip Number" value="MCN" />
+    <Entry label="Medical record number" value="MR" />
+    <Entry label="MasterCard" value="MS" />
+    <Entry label="National employer identifier" value="NE" />
+    <Entry label="National Health Plan Identifier" value="NH" />
+    <Entry label="National unique individual identifier" value="NI" />
+    <Entry label="National Person Identifier where the xxx is the ISO table 3166  3-character (alphabetic) country code" value="NNxxx" />
+    <Entry label="National provider identifier" value="NPI" />
+    <Entry label="Pension Number" value="PEN" />
+    <Entry label="Patient internal identifier" value="PI" />
+    <Entry label="Person number" value="PN" />
+    <Entry label="Provider number" value="PRN" />
+    <Entry label="Patient external identifier" value="PT" />
+    <Entry label="Railroad Retirement number" value="RR" />
+    <Entry label="Regional registry ID" value="RRI" />
+    <Entry label="State license" value="SL" />
+    <Entry label="State registry ID" value="SR" />
+    <Entry label="Social Security number" value="SS" />
+    <Entry label="Unspecified" value="U" />
+    <Entry label="Medicare/HCFA’s Universal Physician Identification numbers" value="UPIN" />
+    <Entry label="Visit number" value="VN" />
+    <Entry label="VISA" value="VS" />
+    <Entry label="WIC identifier" value="WC" />
+    <Entry label="Workers’ Comp Number" value="WCN" />
+    <Entry label="Organization identifier" value="XX" />
+  </Table>
+  <Table number="0204" />
+  <Table number="0205">
+    <Entry label="administrative price or handling fee" value="AP" />
+    <Entry label="direct unit cost" value="DC" />
+    <Entry label="indirect unit cost" value="IC" />
+    <Entry label="professional fee for performing provider" value="PF" />
+    <Entry label="technology fee for use of equipment" value="TF" />
+    <Entry label="total price" value="TP" />
+    <Entry label="unit price, may be based on length of procedure or service" value="UP" />
+  </Table>
+  <Table number="0206">
+    <Entry label="Add/Insert" value="A" />
+    <Entry label="Delete" value="D" />
+    <Entry label="Update" value="U" />
+    <Entry label="No Change" value="X" />
+  </Table>
+  <Table number="0207">
+    <Entry label="Archive" value="A" />
+    <Entry label="Restore from archive" value="R" />
+    <Entry label="Initial load" value="I" />
+    <Entry label="Current processing, transmitted at intervals (scheduled or on demand)" value="T" />
+  </Table>
+  <Table number="0211">
+    <Entry label="The printable 7-bit ASCII character set. (This is the default if this field is omitted)" value="ASCII" />
+    <Entry label="The printable characters from the ISO 8859/1 Character set" value="8859/1" />
+    <Entry label="The printable characters from the ISO 8859/2 Character set" value="8859/2" />
+    <Entry label="The printable characters from the ISO 8859/3 Character set" value="8859/3" />
+    <Entry label="The printable characters from the ISO 8859/4 Character set" value="8859/4" />
+    <Entry label="The printable characters from the ISO 8859/5 Character set" value="8859/5" />
+    <Entry label="The printable characters from the ISO 8859/6 Character set" value="8859/6" />
+    <Entry label="The printable characters from the ISO 8859/7 Character set" value="8859/7" />
+    <Entry label="The printable characters from the ISO 8859/8 Character set" value="8859/8" />
+    <Entry label="The printable characters from the ISO 8859/9 Character set" value="8859/9" />
+    <Entry label="Code for Information Exchange (one byte)(JIS X 0201-1976).  Note that the code contains a space, i.e. 'ISO IR14'." value="ISO IR14" />
+    <Entry label="Code for the Japanese Graphic Character set for information interchange (JIS X 0208-1990), Note that the code contains a space, i.e. 'ISO IR87'." value="ISO IR87" />
+    <Entry label="Code of the supplementary Japanese Graphic Character set for information interchange (JIS X 0212-1990). Note that the code contains a space, i.e. 'ISO IR159'." value="ISO IR159" />
+    <Entry label="The world wide character standard from ISO/IEC 10646-1-1993[3]" value="UNICODE" />
+  </Table>
+  <Table number="0212" />
+  <Table number="0213">
+    <Entry label="Marked for purge.  User is no longer able to update the visit" value="P" />
+    <Entry label="The visit is marked for deletion and the user cannot enter new data against it" value="D" />
+    <Entry label="The visit is marked inactive and the user cannot enter new data against it." value="I" />
+  </Table>
+  <Table number="0214" />
+  <Table number="0215" />
+  <Table number="0216" />
+  <Table number="0217">
+    <Entry label="Emergency" value="1" />
+    <Entry label="Urgent" value="2" />
+    <Entry label="Elective" value="3" />
+  </Table>
+  <Table number="0218" />
+  <Table number="0219" />
+  <Table number="0220">
+    <Entry label="Alone" value="A" />
+    <Entry label="Family" value="F" />
+    <Entry label="Institution" value="I" />
+    <Entry label="Relative" value="R" />
+    <Entry label="Unknown" value="U" />
+    <Entry label="Spouse Only" value="S" />
+  </Table>
+  <Table number="0223">
+    <Entry label="Spouse Dependent" value="S" />
+    <Entry label="Medical Supervision Required" value="M" />
+    <Entry label="Small Children Dependent" value="C" />
+    <Entry label="Other" value="O" />
+    <Entry label="Unknown" value="U" />
+  </Table>
+  <Table number="0228">
+    <Entry label="Consultation" value="C" />
+    <Entry label="Diagnosis" value="D" />
+    <Entry label="Medication (antibiotic)" value="M" />
+    <Entry label="Other" value="O" />
+    <Entry label="Radiological scheduling (not using ICDA codes)" value="R" />
+    <Entry label="Sign and symptom" value="S" />
+    <Entry label="Tissue diagnosis" value="T" />
+    <Entry label="Invasive procedure not classified elsewhere (I.V., catheter, etc.)" value="I" />
+  </Table>
+  <Table number="0231">
+    <Entry label="Full-time student" value="F" />
+    <Entry label="Part-time student" value="P" />
+    <Entry label="Not a student" value="N" />
+  </Table>
+  <Table number="0276" />
+  <Table number="0277" />
+  <Table number="0278" />
+  <Table number="0279" />
+  <Table number="0288" />
+  <Table number="0289" />
+  <Table number="0295" />
+  <Table number="0296" />
+  <Table number="0297" />
+  <Table number="0298">
+    <Entry label="Pro-rate.  Apply this price to this interval, pro-rated by whatever portion of the interval has occurred/been consumed" value="P" />
+    <Entry label="Flat-rate.  Apply the entire price to this interval, do not pro-rate the price if the full interval has not occurred/been consumed" value="F" />
+  </Table>
+  <Table number="0300" />
+  <Table number="0301">
+    <Entry label="An Internet dotted name. Either in ASCII or as integers" value="DNS" />
+    <Entry label="Same as UUID." value="GUID" />
+    <Entry label="The CEN Healthcare Coding Scheme Designator. (Identifiers used in DICOM follow this assignment scheme.)." value="HCD" />
+    <Entry label="Reserved for future HL7 registration schemes." value="HL7" />
+    <Entry label="An International Standards Organization Object Identifier." value="ISO" />
+    <Entry label="These are reserved for locally defined coding schemes." value="L,M,N" />
+    <Entry label="Usually a base64 encoded string of random bits. The uniqueness depends on the length of the bits. Mail systems often generate ASCII string unique names, from a combination of random bits and system names. Obviously, such identifiers will not be constrained to the base64 character set." value="Random" />
+    <Entry label="Uniform Resource Identifier" value="URI" />
+    <Entry label="The DCE Universal Unique Identifier" value="UUID" />
+    <Entry label="An X.400 MHS format identifier" value="x400" />
+    <Entry label="An X.500 directory name" value="x500" />
+  </Table>
+  <Table number="0302" />
+  <Table number="0303" />
+  <Table number="0304" />
+  <Table number="0305" />
+  <Table number="0306" />
+  <Table number="0307" />
+  <Table number="0308" />
+  <Table number="0315">
+    <Entry label="Yes, patient has a living will" value="Y" />
+    <Entry label="Yes, patient has a living will but it is not on file" value="F" />
+    <Entry label="No, patient does not have a living will and no information was provided" value="N" />
+    <Entry label="No, patient does not have a living will but information was provided" value="I" />
+    <Entry label="Unknown" value="U" />
+  </Table>
+  <Table number="0316">
+    <Entry label="Yes, patient is a documented donor and documentation is on file" value="Y" />
+    <Entry label="Yes, patient is a documented donor, but documentation is not on file" value="F" />
+    <Entry label="No, patient has not agreed to be a donor" value="N" />
+    <Entry label="No, patient is not a documented donor, but information was provided" value="I" />
+    <Entry label="Patient leaves organ donation decision to relatives" value="R" />
+    <Entry label="Patient leaves organ donation decision to a specific person" value="P" />
+    <Entry label="Unknown" value="U" />
+  </Table>
+  <Table number="0326">
+    <Entry label="Account level (default)" value="A" />
+    <Entry label="&#x9;Visit level" value="V" />
+  </Table>
+  <Table number="0333" />
+  <Table number="0335" />
+  <Table number="0354">
+    <Entry label="Varies" value="ACK" />
+    <Entry label="A19" value="ADR_A19" />
+    <Entry label="A01, A04, A08, A13" value="ADT_A01" />
+    <Entry label="A02" value="ADT_A02" />
+    <Entry label="A03" value="ADT_A03" />
+    <Entry label="A05, A14, A28, A31" value="ADT_A05" />
+    <Entry label="A06, A07" value="ADT_A06" />
+    <Entry label="A09, A10, A11" value="ADT_A09" />
+    <Entry label="A12" value="ADT_A12" />
+    <Entry label="A15" value="ADT_A15" />
+    <Entry label="A16" value="ADT_A16" />
+    <Entry label="A17" value="ADT_A17" />
+    <Entry label="A18" value="ADT_A18" />
+    <Entry label="A20" value="ADT_A20" />
+    <Entry label="A21, A22, A23, A25, A26, A27, A29, A32, A33" value="ADT_A21" />
+    <Entry label="A24" value="ADT_A24" />
+    <Entry label="A30, A34, A35, A36, A46, A47, A48, A49" value="ADT_A30" />
+    <Entry label="A37" value="ADT_A37" />
+    <Entry label="A38" value="ADT_A38" />
+    <Entry label="A39, A40, A41, A42" value="ADT_A39" />
+    <Entry label="A43, A44" value="ADT_A43" />
+    <Entry label="A45" value="ADT_A45" />
+    <Entry label="A50, A51" value="ADT_A50" />
+    <Entry label="A52, A53, A55" value="ADT_A52" />
+    <Entry label="A54" value="ADT_A54" />
+    <Entry label="A60" value="ADT_A60" />
+    <Entry label="A61, A62" value="ADT_A61" />
+    <Entry label="P01" value="BAR_P01" />
+    <Entry label="P02" value="BAR_P02" />
+    <Entry label="P05" value="BAR_P05" />
+    <Entry label="P06" value="BAR_P06" />
+    <Entry label="P10" value="BAR_P10" />
+    <Entry label="P12" value="BAR_P12" />
+    <Entry label="O29" value="BPS_O29" />
+    <Entry label="O30" value="BRP_O30" />
+    <Entry label="O32" value="BRT_O32" />
+    <Entry label="O31" value="BTS_O31" />
+    <Entry label="C01, C02, C03, C04, C05, C06, C07, C08" value="CRM_C01" />
+    <Entry label="C09, C10, C11, C12" value="CSU_C09" />
+    <Entry label="P03" value="DFT_P03" />
+    <Entry label="P11" value="DFT_P11" />
+    <Entry label="T12" value="DOC_T12" />
+    <Entry label="P04" value="DSR_P04" />
+    <Entry label="Q01" value="DSR_Q01" />
+    <Entry label="Q03" value="DSR_Q03" />
+    <Entry label="U07" value="EAC_U07" />
+    <Entry label="U09" value="EAN_U09" />
+    <Entry label="U08" value="EAR_U08" />
+    <Entry label="R07" value="EDR_R07" />
+    <Entry label="Q04" value="EQQ_Q04" />
+    <Entry label="R09" value="ERP_R09" />
+    <Entry label="U02" value="ESR_U02" />
+    <Entry label="U01" value="ESU_U01" />
+    <Entry label="U06" value="INR_U06" />
+    <Entry label="U05" value="INU_U05" />
+    <Entry label="U12, U13" value="LSU_U12" />
+    <Entry label="T01, T03, T05, T07, T09, T11" value="MDM_T01" />
+    <Entry label="T02, T04, T06, T08, T10" value="MDM_T02" />
+    <Entry label="MFA" value="MFD_MFA" />
+    <Entry label="M01, M02, M03, M04, M05, M06, M07, M08, M09, M10, M11" value="MFK_M01" />
+    <Entry label="M01" value="MFN_M01" />
+    <Entry label="M02" value="MFN_M02" />
+    <Entry label="M03" value="MFN_M03" />
+    <Entry label="M04" value="MFN_M04" />
+    <Entry label="M05" value="MFN_M05" />
+    <Entry label="M06" value="MFN_M06" />
+    <Entry label="M07" value="MFN_M07" />
+    <Entry label="M08" value="MFN_M08" />
+    <Entry label="M09" value="MFN_M09" />
+    <Entry label="M10" value="MFN_M10" />
+    <Entry label="M11" value="MFN_M11" />
+    <Entry label="M12" value="MFN_M12" />
+    <Entry label="M13" value="MFN_M13" />
+    <Entry label="M15" value="MFN_M15" />
+    <Entry label="M01, M02, M03, M04, M05, M06" value="MFQ_M01" />
+    <Entry label="M01, M02, M03" value="MFR_M01" />
+    <Entry label="M04" value="MFR_M04" />
+    <Entry label="M05" value="MFR_M05" />
+    <Entry label="M06" value="MFR_M06" />
+    <Entry label="M07" value="MFR_M07" />
+    <Entry label="N02" value="NMD_N02" />
+    <Entry label="N01" value="NMQ_N01" />
+    <Entry label="N01" value="NMR_N01" />
+    <Entry label="O27" value="OMB_O27" />
+    <Entry label="O03" value="OMD_O03" />
+    <Entry label="O19" value="OMG_O19" />
+    <Entry label="O23" value="OMI_O23" />
+    <Entry label="O21" value="OML_O21" />
+    <Entry label="O33" value="OML_O33" />
+    <Entry label="O35" value="OML_O35" />
+    <Entry label="007" value="OMN_O07" />
+    <Entry label="O09" value="OMP_O09" />
+    <Entry label="O05" value="OMS_O05" />
+    <Entry label="O28" value="ORB_O28" />
+    <Entry label="O04" value="ORD_O04" />
+    <Entry label="R04" value="ORF_R04" />
+    <Entry label="O20" value="ORG_O20" />
+    <Entry label="O24" value="ORI_O24" />
+    <Entry label="022" value="ORL_O22" />
+    <Entry label="O34" value="ORL_O34" />
+    <Entry label="O36" value="ORL_O36" />
+    <Entry label="O01" value="ORM_O01" />
+    <Entry label="O08" value="ORN_O08" />
+    <Entry label="O10" value="ORP_O10" />
+    <Entry label="O02" value="ORR_O02" />
+    <Entry label="O06" value="ORS_O06" />
+    <Entry label="R01" value="ORU_R01" />
+    <Entry label="R30, R31, R32" value="ORU_R30" />
+    <Entry label="Q06" value="OSQ_Q06" />
+    <Entry label="Q06" value="OSR_Q06" />
+    <Entry label="R21" value="OUL_R21" />
+    <Entry label="R22" value="OUL_R22" />
+    <Entry label="R23" value="OUL_R23" />
+    <Entry label="R24" value="OUL_R24" />
+    <Entry label="P07, P08" value="PEX_P07" />
+    <Entry label="PC6, PC7, PC8" value="PGL_PC6" />
+    <Entry label="B01, B02" value="PMU_B01" />
+    <Entry label="B03" value="PMU_B03" />
+    <Entry label="B04, B05, B06" value="PMU_B04" />
+    <Entry label="B07" value="PMU_B07" />
+    <Entry label="B08" value="PMU_B08" />
+    <Entry label="PCC, PCG, PCH, PCJ" value="PPG_PCG" />
+    <Entry label="PCB, PCD" value="PPP_PCB" />
+    <Entry label="PC1, PC2, PC3" value="PPR_PC1" />
+    <Entry label="PCL" value="PPT_PCL" />
+    <Entry label="PCA" value="PPV_PCA" />
+    <Entry label="PC5" value="PRR_PC5" />
+    <Entry label="PCF" value="PTR_PCF" />
+    <Entry label="Q11" value="QBP_Q11" />
+    <Entry label="Q13" value="QBP_Q13" />
+    <Entry label="Q15" value="QBP_Q15" />
+    <Entry label="Q21, Q22, Q23,Q24, Q25" value="QBP_Q21" />
+    <Entry label="Q02" value="QCK_Q02" />
+    <Entry label="J01, J02" value="QCN_J01" />
+    <Entry label="A19" value="QRY_A19" />
+    <Entry label="P04" value="QRY_P04" />
+    <Entry label="PC4, PC9, PCE, PCK" value="QRY_PC4" />
+    <Entry label="Q01, Q26, Q27, Q28, Q29, Q30" value="QRY_Q01" />
+    <Entry label="Q02" value="QRY_Q02" />
+    <Entry label="R02" value="QRY_R02" />
+    <Entry label="T12" value="QRY_T12" />
+    <Entry label="Q16" value="QSB_Q16" />
+    <Entry label="Q17" value="QVR_Q17" />
+    <Entry label="RAR" value="RAR_RAR" />
+    <Entry label="O17" value="RAS_O17" />
+    <Entry label="I05" value="RCI_I05" />
+    <Entry label="I06" value="RCL_I06" />
+    <Entry label="O11, O25" value="RDE_O11" />
+    <Entry label="RDR" value="RDR_RDR" />
+    <Entry label="O13" value="RDS_O13" />
+    <Entry label="K15" value="RDY_K15" />
+    <Entry label="I12, I13, I14, I15" value="REF_I12" />
+    <Entry label="RER" value="RER_RER" />
+    <Entry label="RGR" value="RGR_RGR" />
+    <Entry label="O15" value="RGV_O15" />
+    <Entry label="ROR" value="ROR_ROR" />
+    <Entry label="I08, I09. I10, I11" value="RPA_I08" />
+    <Entry label="I01" value="RPI_I01" />
+    <Entry label="I04" value="RPI_I04" />
+    <Entry label="I02" value="RPL_I02" />
+    <Entry label="I03" value="RPR_I03" />
+    <Entry label="I08, I09, I10, I11" value="RQA_I08" />
+    <Entry label="I05, I06" value="RQC_I05" />
+    <Entry label="I01, I02, I03, I07" value="RQI_I01" />
+    <Entry label="I04" value="RQP_I04" />
+    <Entry label="Q09" value="RQQ_Q09" />
+    <Entry label="O18" value="RRA_O18" />
+    <Entry label="O14" value="RRD_O14" />
+    <Entry label="O12, O26" value="RRE_O12" />
+    <Entry label="O16" value="RRG_O16" />
+    <Entry label="I12, I13, I14, I15" value="RRI_I12" />
+    <Entry label="K11" value="RSP_K11" />
+    <Entry label="K21" value="RSP_K21" />
+    <Entry label="K22" value="RSP_K22" />
+    <Entry label="K23, K24" value="RSP_K23" />
+    <Entry label="K25" value="RSP_K25" />
+    <Entry label="K31" value="RSP_K31" />
+    <Entry label="Q11" value="RSP_Q11" />
+    <Entry label="K13" value="RTB_K13" />
+    <Entry label="S12, S13, S14, S15, S16, S17, S18, S19, S20, S21, S22, S23, S24, S26" value="SIU_S12" />
+    <Entry label="Q08" value="SPQ_Q08" />
+    <Entry label="S25" value="SQM_S25" />
+    <Entry label="S25" value="SQR_S25" />
+    <Entry label="S01, S02, S03, S04, S05, S06, S07, S08, S09, S10, S11" value="SRM_S01" />
+    <Entry label="S01, S02, S03, S04, S05, S06, S07, S08, S09, S10, S11" value="SRR_S01" />
+    <Entry label="U04" value="SSR_U04" />
+    <Entry label="U03" value="SSU_U03" />
+    <Entry label="P09" value="SUR_P09" />
+    <Entry label="R08" value="TBR_R08" />
+    <Entry label="R09" value="TBR_R09" />
+    <Entry label="U10, U11" value="TCU_U10" />
+    <Entry label="Q05" value="UDM_Q05" />
+    <Entry label="Q07" value="VQQ_Q07" />
+    <Entry label="V01" value="VXQ_V01" />
+    <Entry label="V03" value="VXR_V03" />
+    <Entry label="V04" value="VXU_V04" />
+    <Entry label="V02" value="VXX_V02" />
+    <Entry label="W01" value="ORU_W01" />
+    <Entry label="W02" value="QRF_W02" />
+  </Table>
+  <Table number="0356">
+    <Entry label="This standard is titled 'Information Technology - Character Code Structure and Extension Technique'. This standard specifies an escape sequence from basic one byte character set to specified other character set, and vice versa.  The escape sequence explicitly specifies what alternate character set to be evoked. Note that in this mode, the actual ASCII escape character is used as defined in the referenced ISO document. As noted in 1.6.1., escape sequences to/from alternate character set should occur within HL7 delimiters. In other words, HL7 delimiters are basic one byte characters only, and just before and just after delimiters, character encoding status should be the basic one byte set." value="ISO 2022-1994" />
+    <Entry label="The character set switching mode specified in HL7 2.3, sections 2.8.28.6.1, and 2.9.2.  Note that the escape sequences used in this mode do not use the ASCII 'esc' character. They are 'HL7 escape sequences' as defined in HL7 2.3, sec.  2.9 as defined in ISO 2022-1994  (Also, note that sections 2.8.28.6.1and 2.9.2 in HL7 2.3 correspond to sections 2.8.31.6.1and 2.9.2  in HL7 2.4.)" value="2.3" />
+    <Entry label="Not a student" value="" />
+  </Table>
+  <Table number="0359">
+    <Entry label="Not included in diagnosis ranking" value="0" />
+    <Entry label="The primary diagnosis" value="1" />
+    <Entry label="For ranked secondary diagnoses" value="2" />
+  </Table>
+  <Table number="0360" />
+  <Table number="0361" />
+  <Table number="0362" />
+  <Table number="0363" />
+  <Table number="0364">
+    <Entry label="Patient Instructions" value="PI" />
+    <Entry label="Ancillary Instructions" value="AI" />
+    <Entry label="General Instructions" value="GI" />
+    <Entry label="Primary Reason" value="1R" />
+    <Entry label="Secondary Reason" value="2R" />
+    <Entry label="General Reason" value="GR" />
+    <Entry label="Remark" value="RE" />
+    <Entry label="Duplicate/Interaction Reason" value="DR" />
+  </Table>
+  <Table number="0396">
+    <Entry label="Local general code (where z is an alphanumeric character)" value="99zzz" />
+    <Entry label="Local general code (where z is an alphanumeric character)" value="L" />
+    <Entry label="American College of Radiology finding codes" value="ACR" />
+    <Entry label="WHO Adverse Reaction Terms" value="ART" />
+    <Entry label="HL7 set of units of measure" value="ANS+" />
+    <Entry label="ASTM E1238/ E1467 Universal" value="AS4" />
+    <Entry label="AS4 Neurophysiology Codes" value="AS4E" />
+    <Entry label="American Type Culture Collection" value="ATC" />
+    <Entry label="CPT-4" value="C4" />
+    <Entry label="CPT-5" value="C5" />
+    <Entry label="Chemical abstract codes" value="CAS" />
+    <Entry label="CDT-2 Codes" value="CD2" />
+    <Entry label="CDC Analyte Codes" value="CDCA" />
+    <Entry label="CDC Methods/Instruments Codes" value="CDCM" />
+    <Entry label="CDC Surveillance" value="CDS" />
+    <Entry label="CEN ECG diagnostic codes" value="CE" />
+    <Entry label="CLIP" value="CLP" />
+    <Entry label="CPT Modifier Code" value="CPTM" />
+    <Entry label="COSTART" value="CST" />
+    <Entry label="CDC Vaccine Codes" value="CVX" />
+    <Entry label="DICOM Controlled Terminology" value="DCM" />
+    <Entry label="EUCLIDES" value="E" />
+    <Entry label="Euclides quantity codes" value="E5" />
+    <Entry label="Euclides Lab method codes" value="E6" />
+    <Entry label="Euclides Lab equipment codes" value="E7" />
+    <Entry label="Enzyme Codes" value="ENZC" />
+    <Entry label="First DataBank Drug Codes" value="FDDC" />
+    <Entry label="First DataBank Diagnostic Codes" value="FDDX" />
+    <Entry label="FDA K10" value="FDK" />
+    <Entry label="HIBCC" value="HB" />
+    <Entry label="CMS (formerly HCFA)  Common Procedure Coding System" value="HCPCS" />
+    <Entry label="Health Care Provider Taxonomy" value="HCPT" />
+    <Entry label="Home Health Care" value="HHC" />
+    <Entry label="Health Outcomes" value="HI" />
+    <Entry label="HL7 Defined Codes where nnnn is the HL7 table number" value="HL7nnnn" />
+    <Entry label="Japanese Nationwide Medicine Code" value="HOT" />
+    <Entry label="CMS (formerly HCFA )Procedure Codes (HCPCS)" value="HPC" />
+    <Entry label="ICD-10" value="I10" />
+    <Entry label="ICD-10  Procedure Codes" value="I10P" />
+    <Entry label="ICD9" value="I9" />
+    <Entry label="ICD-9CM" value="I9C" />
+    <Entry label="ISBT" value="IBT" />
+    <Entry label="ISBT 128 codes where nnnn  specifies a specific table within ISBT 128." value="IBTnnnn" />
+    <Entry label="ICHPPC-2" value="IC2" />
+    <Entry label="ICD-10 Australian modification" value="ICD10AM" />
+    <Entry label="ICD-10 Canada" value="ICD10CA" />
+    <Entry label="International Classification of Diseases for Oncology" value="ICDO" />
+    <Entry label="ICCS" value="ICS" />
+    <Entry label="International Classification of Sleep Disorders" value="ICSD" />
+    <Entry label="ISO Defined Codes where nnnn is the ISO table number" value="ISOnnnn" />
+    <Entry label="ISO 2955.83 (units of measure) with HL7 extensions" value="ISO+" />
+    <Entry label="IUPAC/IFCC Property Codes" value="IUPP" />
+    <Entry label="IUPAC/IFCC Component Codes" value="IUPC" />
+    <Entry label="Japanese Chemistry" value="JC8" />
+    <Entry label="JLAC/JSLM, nationwide laboratory code" value="JC10" />
+    <Entry label="Japanese Image Examination Cache" value="JJ1017" />
+    <Entry label="Local billing code" value="LB" />
+    <Entry label="Logical Observation Identifier Names and Codes (LOINC®)" value="LN" />
+    <Entry label="Medicaid" value="MCD" />
+    <Entry label="Medicare" value="MCR" />
+    <Entry label="Medispan Diagnostic Codes" value="MDDX" />
+    <Entry label="Medical Economics Drug Codes" value="MEDC" />
+    <Entry label="Medical Dictionary for Drug Regulatory Affairs (MEDDRA)" value="MEDR" />
+    <Entry label="Medical Economics Diagnostic Codes" value="MEDX" />
+    <Entry label="Medispan GPI" value="MGPI" />
+    <Entry label="CDC Vaccine Manufacturer Codes" value="MVX" />
+    <Entry label="NANDA" value="NDA" />
+    <Entry label="National drug codes" value="NDC" />
+    <Entry label="Nursing Interventions Classification" value="NIC" />
+    <Entry label="National Provider Identifier" value="NPI" />
+    <Entry label="National Uniform Billing Committee Code" value="NUBC" />
+    <Entry label="Omaha System" value="OHA" />
+    <Entry label="POS Codes" value="POS" />
+    <Entry label="Read Classification" value="RC" />
+    <Entry label="SNOMED- DICOM Microglossary" value="SDM" />
+    <Entry label="Systemized Nomenclature of Medicine (SNOMED)" value="SNM" />
+    <Entry label="SNOMED International" value="SNM3" />
+    <Entry label="SNOMED topology codes (anatomic sites)" value="SNT" />
+    <Entry label="UCDS" value="UC" />
+    <Entry label="MDNS" value="UMD" />
+    <Entry label="Unified Medical Language" value="UML" />
+    <Entry label="Universal Product Code" value="UPC" />
+    <Entry label="UPIN" value="UPIN" />
+    <Entry label="United States Postal Service" value="USPS" />
+    <Entry label="WHO record # drug codes (6 digit)" value="W1" />
+    <Entry label="WHO record # drug codes (8 digit)" value="W2" />
+    <Entry label="WHO record # code with ASTM extension" value="W4" />
+    <Entry label="WHO ATC" value="WC" />
+  </Table>
+  <Table number="0399">
+    <Entry label="Aruba" value="ABW" />
+    <Entry label="Afghanistan" value="AFG" />
+    <Entry label="Angola" value="AGO" />
+    <Entry label="Anguilla" value="AIA" />
+    <Entry label="Åland Islands" value="ALA" />
+    <Entry label="Albania" value="ALB" />
+    <Entry label="Andorra" value="AND" />
+    <Entry label="United Arab Emirates" value="ARE" />
+    <Entry label="Argentina" value="ARG" />
+    <Entry label="Armenia" value="ARM" />
+    <Entry label="American Samoa" value="ASM" />
+    <Entry label="Antarctica" value="ATA" />
+    <Entry label="French Southern Territories" value="ATF" />
+    <Entry label="Antigua and Barbuda" value="ATG" />
+    <Entry label="Australia" value="AUS" />
+    <Entry label="Austria" value="AUT" />
+    <Entry label="Azerbaijan" value="AZE" />
+    <Entry label="Burundi" value="BDI" />
+    <Entry label="Belgium" value="BEL" />
+    <Entry label="Benin" value="BEN" />
+    <Entry label="Bonaire, Saint Eustatius and Saba" value="BES" />
+    <Entry label="Burkina Faso" value="BFA" />
+    <Entry label="Bangladesh" value="BGD" />
+    <Entry label="Bulgaria" value="BGR" />
+    <Entry label="Bahrain" value="BHR" />
+    <Entry label="Bahamas" value="BHS" />
+    <Entry label="Bosnia and Herzegovina" value="BIH" />
+    <Entry label="Saint Barthélemy" value="BLM" />
+    <Entry label="Belarus" value="BLR" />
+    <Entry label="Belize" value="BLZ" />
+    <Entry label="Bermuda" value="BMU" />
+    <Entry label="Bolivia, Plurinational State of" value="BOL" />
+    <Entry label="Brazil" value="BRA" />
+    <Entry label="Barbados" value="BRB" />
+    <Entry label="Brunei Darussalam" value="BRN" />
+    <Entry label="Bhutan" value="BTN" />
+    <Entry label="Bouvet Island" value="BVT" />
+    <Entry label="Botswana" value="BWA" />
+    <Entry label="Central African Republic" value="CAF" />
+    <Entry label="Canada" value="CAN" />
+    <Entry label="Cocos (Keeling) Islands" value="CCK" />
+    <Entry label="Switzerland" value="CHE" />
+    <Entry label="Chile" value="CHL" />
+    <Entry label="China" value="CHN" />
+    <Entry label="Côte d'Ivoire" value="CIV" />
+    <Entry label="Cameroon" value="CMR" />
+    <Entry label="Congo, the Democratic Republic of the" value="COD" />
+    <Entry label="Congo" value="COG" />
+    <Entry label="Cook Islands" value="COK" />
+    <Entry label="Colombia" value="COL" />
+    <Entry label="Comoros" value="COM" />
+    <Entry label="Cape Verde" value="CPV" />
+    <Entry label="Costa Rica" value="CRI" />
+    <Entry label="Cuba" value="CUB" />
+    <Entry label="Curaçao" value="CUW" />
+    <Entry label="Christmas Island" value="CXR" />
+    <Entry label="Cayman Islands" value="CYM" />
+    <Entry label="Cyprus" value="CYP" />
+    <Entry label="Czech Republic" value="CZE" />
+    <Entry label="Germany" value="DEU" />
+    <Entry label="Djibouti" value="DJI" />
+    <Entry label="Dominica" value="DMA" />
+    <Entry label="Denmark" value="DNK" />
+    <Entry label="Dominican Republic" value="DOM" />
+    <Entry label="Algeria" value="DZA" />
+    <Entry label="Ecuador" value="ECU" />
+    <Entry label="Egypt" value="EGY" />
+    <Entry label="Eritrea" value="ERI" />
+    <Entry label="Western Sahara" value="ESH" />
+    <Entry label="Spain" value="ESP" />
+    <Entry label="Estonia" value="EST" />
+    <Entry label="Ethiopia" value="ETH" />
+    <Entry label="Finland" value="FIN" />
+    <Entry label="Fiji" value="FJI" />
+    <Entry label="Falkland Islands (Malvinas)" value="FLK" />
+    <Entry label="France" value="FRA" />
+    <Entry label="Faroe Islands" value="FRO" />
+    <Entry label="Micronesia, Federated States of" value="FSM" />
+    <Entry label="Gabon" value="GAB" />
+    <Entry label="United Kingdom" value="GBR" />
+    <Entry label="Georgia" value="GEO" />
+    <Entry label="Guernsey" value="GGY" />
+    <Entry label="Ghana" value="GHA" />
+    <Entry label="Gibraltar" value="GIB" />
+    <Entry label="Guinea" value="GIN" />
+    <Entry label="Guadeloupe" value="GLP" />
+    <Entry label="Gambia" value="GMB" />
+    <Entry label="Guinea-Bissau" value="GNB" />
+    <Entry label="Equatorial Guinea" value="GNQ" />
+    <Entry label="Greece" value="GRC" />
+    <Entry label="Grenada" value="GRD" />
+    <Entry label="Greenland" value="GRL" />
+    <Entry label="Guatemala" value="GTM" />
+    <Entry label="French Guiana" value="GUF" />
+    <Entry label="Guam" value="GUM" />
+    <Entry label="Guyana" value="GUY" />
+    <Entry label="Hong Kong" value="HKG" />
+    <Entry label="Heard Island and McDonald Islands" value="HMD" />
+    <Entry label="Honduras" value="HND" />
+    <Entry label="Croatia" value="HRV" />
+    <Entry label="Haiti" value="HTI" />
+    <Entry label="Hungary" value="HUN" />
+    <Entry label="Indonesia" value="IDN" />
+    <Entry label="Isle of Man" value="IMN" />
+    <Entry label="India" value="IND" />
+    <Entry label="British Indian Ocean Territory" value="IOT" />
+    <Entry label="Ireland" value="IRL" />
+    <Entry label="Iran, Islamic Republic of" value="IRN" />
+    <Entry label="Iraq" value="IRQ" />
+    <Entry label="Iceland" value="ISL" />
+    <Entry label="Israel" value="ISR" />
+    <Entry label="Italy" value="ITA" />
+    <Entry label="Jamaica" value="JAM" />
+    <Entry label="Jersey" value="JEY" />
+    <Entry label="Jordan" value="JOR" />
+    <Entry label="Japan" value="JPN" />
+    <Entry label="Kazakhstan" value="KAZ" />
+    <Entry label="Kenya" value="KEN" />
+    <Entry label="Kyrgyzstan" value="KGZ" />
+    <Entry label="Cambodia" value="KHM" />
+    <Entry label="Kiribati" value="KIR" />
+    <Entry label="Saint Kitts and Nevis" value="KNA" />
+    <Entry label="Korea, Republic of" value="KOR" />
+    <Entry label="Kuwait" value="KWT" />
+    <Entry label="Lao People's Democratic Republic" value="LAO" />
+    <Entry label="Lebanon" value="LBN" />
+    <Entry label="Liberia" value="LBR" />
+    <Entry label="Libyan Arab Jamahiriya" value="LBY" />
+    <Entry label="Saint Lucia" value="LCA" />
+    <Entry label="Liechtenstein" value="LIE" />
+    <Entry label="Sri Lanka" value="LKA" />
+    <Entry label="Lesotho" value="LSO" />
+    <Entry label="Lithuania" value="LTU" />
+    <Entry label="Luxembourg" value="LUX" />
+    <Entry label="Latvia" value="LVA" />
+    <Entry label="Macao" value="MAC" />
+    <Entry label="Saint Martin (French part)" value="MAF" />
+    <Entry label="Morocco" value="MAR" />
+    <Entry label="Monaco" value="MCO" />
+    <Entry label="Moldova, Republic of" value="MDA" />
+    <Entry label="Madagascar" value="MDG" />
+    <Entry label="Maldives" value="MDV" />
+    <Entry label="Mexico" value="MEX" />
+    <Entry label="Marshall Islands" value="MHL" />
+    <Entry label="Macedonia, the former Yugoslav Republic of" value="MKD" />
+    <Entry label="Mali" value="MLI" />
+    <Entry label="Malta" value="MLT" />
+    <Entry label="Myanmar" value="MMR" />
+    <Entry label="Montenegro" value="MNE" />
+    <Entry label="Mongolia" value="MNG" />
+    <Entry label="Northern Mariana Islands" value="MNP" />
+    <Entry label="Mozambique" value="MOZ" />
+    <Entry label="Mauritania" value="MRT" />
+    <Entry label="Montserrat" value="MSR" />
+    <Entry label="Martinique" value="MTQ" />
+    <Entry label="Mauritius" value="MUS" />
+    <Entry label="Malawi" value="MWI" />
+    <Entry label="Malaysia" value="MYS" />
+    <Entry label="Mayotte" value="MYT" />
+    <Entry label="Namibia" value="NAM" />
+    <Entry label="New Caledonia" value="NCL" />
+    <Entry label="Niger" value="NER" />
+    <Entry label="Norfolk Island" value="NFK" />
+    <Entry label="Nigeria" value="NGA" />
+    <Entry label="Nicaragua" value="NIC" />
+    <Entry label="Niue" value="NIU" />
+    <Entry label="Netherlands" value="NLD" />
+    <Entry label="Norway" value="NOR" />
+    <Entry label="Nepal" value="NPL" />
+    <Entry label="Nauru" value="NRU" />
+    <Entry label="New Zealand" value="NZL" />
+    <Entry label="Oman" value="OMN" />
+    <Entry label="Pakistan" value="PAK" />
+    <Entry label="Panama" value="PAN" />
+    <Entry label="Pitcairn" value="PCN" />
+    <Entry label="Peru" value="PER" />
+    <Entry label="Philippines" value="PHL" />
+    <Entry label="Palau" value="PLW" />
+    <Entry label="Papua New Guinea" value="PNG" />
+    <Entry label="Poland" value="POL" />
+    <Entry label="Puerto Rico" value="PRI" />
+    <Entry label="Korea, Democratic People's Republic of" value="PRK" />
+    <Entry label="Portugal" value="PRT" />
+    <Entry label="Paraguay" value="PRY" />
+    <Entry label="Palestinian Territory, Occupied" value="PSE" />
+    <Entry label="French Polynesia" value="PYF" />
+    <Entry label="Qatar" value="QAT" />
+    <Entry label="Réunion" value="REU" />
+    <Entry label="Romania" value="ROU" />
+    <Entry label="Russian Federation" value="RUS" />
+    <Entry label="Rwanda" value="RWA" />
+    <Entry label="Saudi Arabia" value="SAU" />
+    <Entry label="Sudan" value="SDN" />
+    <Entry label="Senegal" value="SEN" />
+    <Entry label="Singapore" value="SGP" />
+    <Entry label="South Georgia and the South Sandwich Islands" value="SGS" />
+    <Entry label="Saint Helena, Ascension and Tristan da Cunha" value="SHN" />
+    <Entry label="Svalbard and Jan Mayen" value="SJM" />
+    <Entry label="Solomon Islands" value="SLB" />
+    <Entry label="Sierra Leone" value="SLE" />
+    <Entry label="El Salvador" value="SLV" />
+    <Entry label="San Marino" value="SMR" />
+    <Entry label="Somalia" value="SOM" />
+    <Entry label="Saint Pierre and Miquelon" value="SPM" />
+    <Entry label="Serbia" value="SRB" />
+    <Entry label="Sao Tome and Principe" value="STP" />
+    <Entry label="Suriname" value="SUR" />
+    <Entry label="Slovakia" value="SVK" />
+    <Entry label="Slovenia" value="SVN" />
+    <Entry label="Sweden" value="SWE" />
+    <Entry label="Swaziland" value="SWZ" />
+    <Entry label="Sint Maarten (Dutch part)" value="SXM" />
+    <Entry label="Seychelles" value="SYC" />
+    <Entry label="Syrian Arab Republic" value="SYR" />
+    <Entry label="Turks and Caicos Islands" value="TCA" />
+    <Entry label="Chad" value="TCD" />
+    <Entry label="Togo" value="TGO" />
+    <Entry label="Thailand" value="THA" />
+    <Entry label="Tajikistan" value="TJK" />
+    <Entry label="Tokelau" value="TKL" />
+    <Entry label="Turkmenistan" value="TKM" />
+    <Entry label="Timor-Leste" value="TLS" />
+    <Entry label="Tonga" value="TON" />
+    <Entry label="Trinidad and Tobago" value="TTO" />
+    <Entry label="Tunisia" value="TUN" />
+    <Entry label="Turkey" value="TUR" />
+    <Entry label="Tuvalu" value="TUV" />
+    <Entry label="Taiwan, Province of China" value="TWN" />
+    <Entry label="Tanzania, United Republic of" value="TZA" />
+    <Entry label="Uganda" value="UGA" />
+    <Entry label="Ukraine" value="UKR" />
+    <Entry label="United States Minor Outlying Islands" value="UMI" />
+    <Entry label="Uruguay" value="URY" />
+    <Entry label="United States" value="USA" />
+    <Entry label="Uzbekistan" value="UZB" />
+    <Entry label="Holy See (Vatican City State)" value="VAT" />
+    <Entry label="Saint Vincent and the Grenadines" value="VCT" />
+    <Entry label="Venezuela, Bolivarian Republic of" value="VEN" />
+    <Entry label="Virgin Islands, British" value="VGB" />
+    <Entry label="Virgin Islands, U.S." value="VIR" />
+    <Entry label="Viet Nam" value="VNM" />
+    <Entry label="Vanuatu" value="VUT" />
+    <Entry label="Wallis and Futuna" value="WLF" />
+    <Entry label="Samoa" value="WSM" />
+    <Entry label="Yemen" value="YEM" />
+    <Entry label="South Africa" value="ZAF" />
+    <Entry label="Zambia" value="ZMB" />
+    <Entry label="Zimbabwe" value="ZWE" />
+  </Table>
+  <Table number="0411" />
+  <Table number="0429">
+    <Entry label="Breeding/genetic stock" value="BR" />
+    <Entry label="Dairy" value="DA" />
+    <Entry label="Draft" value="DR" />
+    <Entry label="Dual Purpose" value="DU" />
+    <Entry label="Layer, Includes Multiplier flocks" value="LY" />
+    <Entry label="Meat" value="MT" />
+    <Entry label="Other" value="OT" />
+    <Entry label="Pleasure" value="PL" />
+    <Entry label="Racing" value="RA" />
+    <Entry label="Show" value="SH" />
+    <Entry label="Not Applicable" value="NA" />
+    <Entry label="Unknown" value="U" />
+  </Table>
+  <Table number="0430">
+    <Entry label="Ambulance" value="A" />
+    <Entry label="Car" value="C" />
+    <Entry label="On foot" value="F" />
+    <Entry label="Helicopter" value="H" />
+    <Entry label="Public Transport" value="P" />
+    <Entry label="Other" value="O" />
+    <Entry label="Unknown" value="U" />
+  </Table>
+  <Table number="0431">
+    <Entry label="Alcohol" value="A" />
+    <Entry label="Kava" value="K" />
+    <Entry label="Marijuana" value="M" />
+    <Entry label="Tobacco - smoked" value="T" />
+    <Entry label="Tobacco - chewed" value="C" />
+    <Entry label="Other" value="O" />
+    <Entry label="Unknown" value="U" />
+  </Table>
+  <Table number="0432">
+    <Entry label="Acute" value="AC" />
+    <Entry label="Chronic" value="CH" />
+    <Entry label="Comatose" value="CO" />
+    <Entry label="Critical" value="CR" />
+    <Entry label="Improved" value="IM" />
+    <Entry label="Moribund" value="MO" />
+  </Table>
+  <Table number="0433">
+    <Entry label="Aggressive" value="A" />
+    <Entry label="Blind" value="B" />
+    <Entry label="Confused" value="C" />
+    <Entry label="Deaf" value="D" />
+    <Entry label="On IV" value="I" />
+    <Entry label="'No-code' (i.e. Do not resuscitate)" value="N" />
+    <Entry label="Paraplegic" value="P" />
+    <Entry label="Other" value="O" />
+    <Entry label="Unknown" value="U" />
+  </Table>
+  <Table number="0434">
+    <Entry label="Satisfactory" value="A" />
+    <Entry label="Critical" value="C" />
+    <Entry label="Poor" value="P" />
+    <Entry label="Stable" value="S" />
+    <Entry label="Other" value="O" />
+    <Entry label="Unknown" value="U" />
+  </Table>
+  <Table number="0435">
+    <Entry label="Do not resuscitate" value="DNR" />
+  </Table>
+  <Table number="0441">
+    <Entry label="Inactive" value="I" />
+    <Entry label="Inactive - Lost to follow-up (cancel contract)" value="L" />
+    <Entry label="Inactive - Moved or gone elsewhere (cancel contract)" value="M" />
+    <Entry label="Inactive - Permanently inactive (Do not reactivate or add new entries to the record)" value="P" />
+    <Entry label="Other" value="O" />
+    <Entry label="Unknown" value="U" />
+  </Table>
+  <Table number="0444">
+    <Entry label="Prefix Given Middle Family Suffix" value="G" />
+    <Entry label="Prefix Family Middle Given Suffix" value="F" />
+  </Table>
+  <Table number="0445">
+    <Entry label="Unknown/Default Social Security Number" value="US" />
+    <Entry label="Unknown/Default Date of Birth" value="UD" />
+    <Entry label="Unknown/Default Address" value="UD" />
+    <Entry label="Patient/Person Name is an Alias" value="AL" />
+  </Table>
+  <Table number="0446" />
+  <Table number="0447" />
+  <Table number="0448" />
+  <Table number="0449" />
+  <Table number="0465">
+    <Entry label="Ideographic (i.e., Kanji)" value="I" />
+    <Entry label="Alphabetic (i.e., Default or some single-byte)" value="A" />
+    <Entry label="Phonetic (i.e., ASCII, Katakana, Hiragana, etc.)" value="P" />
+  </Table>
+  <Table number="0472">
+    <Entry label="Synchronous" value="S" />
+    <Entry label="Asynchronous" value="A" />
+    <Entry label="Actuation Time" value="C" />
+  </Table>
+  <Table number="0524">
+    <Entry label="Sequence conditions" value="S" />
+    <Entry label="Repeating cycle of orders" value="C" />
+    <Entry label="Reserved for possible future use" value="R" />
+  </Table>
+  <Table number="0529">
+    <Entry label="Year" value="Y" />
+    <Entry label="Month" value="L" />
+    <Entry label="day" value="D" />
+    <Entry label="Hour" value="H" />
+    <Entry label="Minute" value="M" />
+    <Entry label="Second" value="S" />
+  </Table>
+  <Table number="FirstName" />
+  <Table number="LastName" />
+  <Table number="PhoneNumber" />
+  <Table number="Street" />
+  <Table number="City" />
+  <Table number="State" />
+  <Table number="ZipCode" />
+</Tables>

@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Segment name="NTE" repeat="*" optional="O">
+  <Field name="Set ID - NTE" repeat ="1" optional="O" dataType="SI" length="4" sequence="1"></Field>
+  <Field name="Source of Comment" repeat ="1" optional="O" dataType="ID" length="8" sequence="2" tableNumber="0105"></Field>
+  <Field name="Comment" repeat ="*" optional="O" dataType="FT" length="65536" sequence="3"></Field>
+  <Field name="Comment Type" repeat ="1" optional="O" length="250" sequence="4" tableNumber="0364">
+    <Component name="Identifier" sequence="1" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Text" sequence="2" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Coding System" sequence="3" length="0" dataType="IS" optional="O"></Component>
+    <Component name="Alternate Identifier" sequence="4" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Alternate Text" sequence="5" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Alternate Coding System" sequence="6" length="0" dataType="IS" optional="O"></Component>
+  </Field>
+</Segment>

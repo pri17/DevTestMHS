@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Segment name="AIP" repeat="1" optional="R">
+  <Field name="Set ID - AIP" repeat ="1" optional="R" dataType="SI" length="4" sequence="1"></Field>
+  <Field name="Segment Action Code" repeat ="1" optional="C" dataType="ID" length="3" sequence="2" tableNumber="0206"></Field>
+  <Field name="Personnel Resource Id" repeat ="1" optional="C"  length="250" sequence="3">
+    <Component name="Id Number" sequence="1" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Family Name" sequence="2" length="0" optional="O">
+      <Component  name="Surname" dataType="ST" length="0" optional="O" sequence="1" tableNumber="LastName"></Component>
+      <Component  name="Own Surname Prefix" dataType="ST" length="0" optional="O" sequence="2"></Component>
+      <Component  name="Own Surname" dataType="ST" length="0" optional="O" sequence="3"></Component>
+      <Component  name="Surname Prefix From Partner/Spouse" dataType="ST" length="0" optional="O" sequence="4"></Component>
+      <Component  name="Surname From Partner/Spouse" dataType="ST" length="0" optional="O" sequence="5"></Component>
+    </Component>
+    <Component name="Given Name" sequence="3" length="0" dataType="ST" optional="O" tableNumber="FirstName"></Component>
+    <Component name="Second And Further Given Names Or Initials Thereof" sequence="4" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Suffix" sequence="5" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Prefix" sequence="6" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Degree" sequence="7" length="0" dataType="IS" optional="O"></Component>
+    <Component name="Source Table" sequence="8" length="0" dataType="IS" optional="O"></Component>
+    <Component name="Assigning Authority" sequence="9" length="0"  optional="O">
+      <Component name="Namespace Id" sequence="1" length="0" dataType="IS" optional="O" tableNumber="0300"></Component>
+      <Component name="Universal Id" sequence="2" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Universal Id Type" sequence="3" length="0" dataType="ID" optional="O" tableNumber="0301"></Component>
+    </Component>
+    <Component name="Name Type Code" sequence="10" length="0" dataType="ID" optional="O"></Component>
+    <Component name="Identifier Check Digit" sequence="11" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Code Identifying The Check Digit Scheme Employed" sequence="12" length="0" dataType="ID" optional="O"></Component>
+    <Component name="Identifier Type Code" sequence="13" length="0" dataType="IS" optional="O"></Component>
+    <Component name="Assigning Facility" sequence="14" length="0"  optional="O">
+      <Component name="Namespace Id" sequence="1" length="0" dataType="IS" optional="O" tableNumber="0300"></Component>
+      <Component name="Universal Id" sequence="2" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Universal Id Type" sequence="3" length="0" dataType="ID" optional="O" tableNumber="0301"></Component>
+    </Component>
+    <Component name="Name Representation Code" sequence="15" length="0" dataType="ID" optional="O"></Component>
+    <Component name="Name Context" sequence="16" length="0"  optional="O">
+      <Component name="Identifier" sequence="1" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Text" sequence="2" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Name Of Coding System" sequence="3" length="0" dataType="IS" optional="O"></Component>
+      <Component name="Alternate Identifier" sequence="4" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Alternate Text" sequence="5" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Name Of Alternate Coding System" sequence="6" length="0" dataType="IS" optional="O"></Component>
+    </Component>
+    <Component name="Name Validity Range" sequence="17" length="0" optional="O">
+      <Component name="Range Start Date/Time" sequence="1" length="0" dataType="DTM" optional="O"></Component>
+      <Component name="Range End Date/Time" sequence="2" length="0" dataType="DTM" optional="O"></Component>
+    </Component>
+    <Component name="Name Assembly Order" sequence="18" length="0" dataType="ID" optional="O"></Component>
+  </Field>
+  <Field name="Resource Role" repeat ="1" optional="R"  length="250" sequence="4">
+    <Component name="Identifier" sequence="1" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Text" sequence="2" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Coding System" sequence="3" length="0" dataType="IS" optional="O"></Component>
+    <Component name="Alternate Identifier" sequence="4" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Alternate Text" sequence="5" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Alternate Coding System" sequence="6" length="0" dataType="IS" optional="O"></Component>
+  </Field>
+  <Field name="Resource Group" repeat ="1" optional="O"  length="250" sequence="5">
+    <Component name="Identifier" sequence="1" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Text" sequence="2" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Coding System" sequence="3" length="0" dataType="IS" optional="O"></Component>
+    <Component name="Alternate Identifier" sequence="4" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Alternate Text" sequence="5" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Alternate Coding System" sequence="6" length="0" dataType="IS" optional="O"></Component>
+  </Field>
+  <Field name="Start Date/Time" repeat ="1" optional="C" length="26" sequence="6">
+    <Component  name="Time Of An Event" dataType="TS" length="0" optional="O" sequence="1"></Component>
+  </Field>
+  <Field name="Start Date/Time Offset" repeat ="1" optional="C" dataType="NM" length="20" sequence="7"></Field>
+  <Field name="Start Date/Time Offset Units" repeat ="1" optional="C" length="2500" sequence="8">
+    <Component name="Identifier" sequence="1" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Text" sequence="2" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Coding System" sequence="3" length="0" dataType="IS" optional="O"></Component>
+    <Component name="Alternate Identifier" sequence="4" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Alternate Text" sequence="5" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Alternate Coding System" sequence="6" length="0" dataType="IS" optional="O"></Component>
+  </Field>
+  <Field name="Duration" repeat ="1" optional="O" dataType="NM" length="20" sequence="9"></Field>
+  <Field name="Duration Units" repeat ="1" optional="O"  length="250" sequence="10">
+    <Component name="Identifier" sequence="1" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Text" sequence="2" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Coding System" sequence="3" length="0" dataType="IS" optional="O"></Component>
+    <Component name="Alternate Identifier" sequence="4" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Alternate Text" sequence="5" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Alternate Coding System" sequence="6" length="0" dataType="IS" optional="O"></Component>
+  </Field>
+  <Field name="Allow Substitution Code" repeat ="1" optional="C" dataType="IS" length="10" sequence="11" tableNumber="0279"></Field>
+  <Field name="Filler Stastus Code" repeat ="1" optional="C" length="250" sequence="12" tableNumber="0278">
+    <Component name="Identifier" sequence="1" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Text" sequence="2" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Coding System" sequence="3" length="0" dataType="IS" optional="O"></Component>
+    <Component name="Alternate Identifier" sequence="4" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Alternate Text" sequence="5" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Alternate Coding System" sequence="6" length="0" dataType="IS" optional="O"></Component>
+  </Field>
+</Segment>

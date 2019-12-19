@@ -1,0 +1,62 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Segment name="DRG" repeat="*" optional="O">
+  <Field name="Diagnostic Related Group" repeat ="1" optional="O" length="250" sequence="1" tableNumber="0055">
+    <Component name="Identifier" sequence="1" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Text" sequence="2" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Coding System" sequence="3" length="0" dataType="IS" optional="O"></Component>
+    <Component name="Alternate Identifier" sequence="4" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Alternate Text" sequence="5" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Alternate Coding System" sequence="6" length="0" dataType="IS" optional="O"></Component>
+  </Field>
+  <Field name="DRG Assigned Date/Time" repeat ="1" optional="O" dataType="TS" length="26" sequence="2"></Field>
+  <Field name="DRG Approval Indicator" repeat ="1" optional="O" dataType="ID" length="1" sequence="3" tableNumber="0136"></Field>
+  <Field name="DRG Grouper Review Code" repeat ="1" optional="O" dataType="IS" length="2" sequence="4" tableNumber="0056"></Field>
+  <Field name="Outlier Type" repeat ="1" optional="O" length="250" sequence="5" tableNumber="0083">
+    <Component name="Identifier" sequence="1" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Text" sequence="2" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Coding System" sequence="3" length="0" dataType="IS" optional="O"></Component>
+    <Component name="Alternate Identifier" sequence="4" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Alternate Text" sequence="5" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Alternate Coding System" sequence="6" length="0" dataType="IS" optional="O"></Component>
+  </Field>
+  <Field name="Outlier Days" repeat ="1" optional="O" dataType="NM" length="3" sequence="6"></Field>
+  <Field name="Outlier Cost" repeat ="1" optional="O" length="12" sequence="7">
+    <Component name="Price" sequence="1" length="0" optional="O">
+      <Component name="Quantity" sequence="1" length="0" dataType="NM" optional="O"></Component>
+      <Component name="Denomination" sequence="2" length="0" dataType="ID" optional="O"></Component>
+    </Component>
+    <Component name="Price Type" sequence="2" length="0" dataType="ID" optional="O" tableNumber="0205"></Component>
+    <Component name="From Value" sequence="3" length="0" dataType="NM" optional="O"></Component>
+    <Component name="To Value" sequence="4" length="0" dataType="NM" optional="O"></Component>
+    <Component name="Range Units" sequence="5" length="0" optional="O">
+      <Component name="Identifier" sequence="1" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Text" sequence="2" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Name Of Coding System" sequence="3" length="0" dataType="IS" optional="O"></Component>
+      <Component name="Alternate Identifier" sequence="4" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Alternate Text" sequence="5" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Name Of Alternate Coding System" sequence="6" length="0" dataType="IS" optional="O"></Component>
+    </Component>
+    <Component name="Range Type" sequence="6" length="0" dataType="ID" optional="O" tableNumber="0298"></Component>
+  </Field>
+  <Field name="DRG Payor" repeat ="1" optional="O" dataType="IS" length="1" sequence="8" tableNumber="0229"></Field>
+  <Field name="Outlier Reimbursement" repeat ="1" optional="O" length="9" sequence="9">
+     <Component name="Price" sequence="1" length="0" optional="O">
+      <Component name="Quantity" sequence="1" length="0" dataType="NM" optional="O"></Component>
+      <Component name="Denomination" sequence="2" length="0" dataType="ID" optional="O"></Component>
+    </Component>
+    <Component name="Price Type" sequence="2" length="0" dataType="ID" optional="O" tableNumber="0205"></Component>
+    <Component name="From Value" sequence="3" length="0" dataType="NM" optional="O"></Component>
+    <Component name="To Value" sequence="4" length="0" dataType="NM" optional="O"></Component>
+    <Component name="Range Units" sequence="5" length="0" optional="O">
+      <Component name="Identifier" sequence="1" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Text" sequence="2" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Name Of Coding System" sequence="3" length="0" dataType="IS" optional="O"></Component>
+      <Component name="Alternate Identifier" sequence="4" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Alternate Text" sequence="5" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Name Of Alternate Coding System" sequence="6" length="0" dataType="IS" optional="O"></Component>
+    </Component>
+    <Component name="Range Type" sequence="6" length="0" dataType="ID" optional="O" tableNumber="0298"></Component>
+  </Field>
+  <Field name="Confidential Indicator" repeat ="1" dataType="ID" optional="O" length="1" sequence="10" tableNumber="0136"></Field>
+  <Field name="DRG Transfer Type" repeat ="1" dataType="IS" optional="O" length="21" sequence="11" tableNumber="0415"></Field>
+</Segment>

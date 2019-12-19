@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29123.88
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DevTestMHS", "DevTestMHS\DevTestMHS.csproj", "{026CC120-4596-4FC8-95AB-C9254FCE586B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Backend", "Backend", "{90B9BDD7-687F-44AC-92BD-91F49E04BE00}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MessageValidator", "MessageValidator\MessageValidator.csproj", "{08B4AF8F-FDED-45C4-B0A7-6AF12BAE4811}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{026CC120-4596-4FC8-95AB-C9254FCE586B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{026CC120-4596-4FC8-95AB-C9254FCE586B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{026CC120-4596-4FC8-95AB-C9254FCE586B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{026CC120-4596-4FC8-95AB-C9254FCE586B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08B4AF8F-FDED-45C4-B0A7-6AF12BAE4811}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B4AF8F-FDED-45C4-B0A7-6AF12BAE4811}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B4AF8F-FDED-45C4-B0A7-6AF12BAE4811}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B4AF8F-FDED-45C4-B0A7-6AF12BAE4811}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{08B4AF8F-FDED-45C4-B0A7-6AF12BAE4811} = {90B9BDD7-687F-44AC-92BD-91F49E04BE00}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E7616BB1-CA0B-4CBD-810C-8BD2B7419B68}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<MessageDefinition>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/MSH.xml"></xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/SCH.xml"></xi:include>
+  <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/NTE.xml"></xi:include>
+  <Group name="PATIENT" optional="O" repeat="*">
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/PID.xml"></xi:include>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/PD1.xml"></xi:include>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/PV1.xml"></xi:include>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/PV2.xml"></xi:include>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/OBX.xml"></xi:include>
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/DG1.xml"></xi:include>
+  </Group>
+  <Group name="RESOURCES" optional="R" repeat="*">
+    <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/RGS.xml"></xi:include>
+    <Group name="SERVICE" optional="O" repeat="*">
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/AIS.xml"></xi:include>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/NTE.xml"></xi:include>
+    </Group>
+    <Group name="GENERAL RESOURCE" optional="O" repeat="*">
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/AIG.xml"></xi:include>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/NTE.xml"></xi:include>
+    </Group>
+    <Group name="LOCATION RESOURCE" optional="O" repeat="*">
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/AIL.xml"></xi:include>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/NTE.xml"></xi:include>
+    </Group>
+    <Group name="PERSONNEL RESOURCE" optional="O" repeat="*">
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/AIP.xml"></xi:include>
+      <xi:include xmlns:xi="http://www.w3.org/2001/XInclude" href="../../Segment/NTE.xml"></xi:include>-->
+    </Group>
+  </Group>
+</MessageDefinition>

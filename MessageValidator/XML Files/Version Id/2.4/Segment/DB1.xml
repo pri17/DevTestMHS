@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Segment name="DB1" repeat="*" optional="O">
+  <Field name="Set ID - DB1" repeat ="1" optional="R" dataType="SI" length="4" sequence="1"></Field>
+  <Field name="Disabled Person Code" repeat ="1" optional="O" dataType="IS" length="2" sequence="2" tableNumber="0334"></Field>
+  <Field name="Disabled Person Identifier" repeat ="*" optional="O" length="250" sequence="3">
+    <Component name="Id" sequence="1" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Check Digit" sequence="2" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Code Identifying The Check Digit Scheme Employed" sequence="3" length="0" dataType="ID" optional="O"></Component>
+    <Component name="Assigning Authority" sequence="4" length="0" optional="O">
+      <Component name="Namespace Id" sequence="1" length="0" dataType="IS" optional="O" tableNumber="0300"></Component>
+      <Component name="Universal Id" sequence="2" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Universal Id Type" sequence="3" length="0" dataType="ID" optional="O" tableNumber="0301"></Component>
+    </Component>
+    <Component name="Identifier Type Code" sequence="5" length="0" dataType="ID" tableNumber="0203" optional="O"></Component>
+    <Component name="Assigning Facility" sequence="6" length="0" tableNumber="0203" optional="O">
+      <Component name="Namespace Id" sequence="1" length="0" dataType="IS" optional="O" tableNumber="0300"></Component>
+      <Component name="Universal Id" sequence="2" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Universal Id Type" sequence="3" length="0" dataType="ID" optional="O" tableNumber="0301"></Component>
+    </Component>
+    <Component name="Effective Date" sequence="7" length="0" dataType="DT" optional="O"></Component>
+    <Component name="Expiration Date" sequence="8" length="0" dataType="DT" optional="O"></Component>
+  </Field>
+  <Field name="Disability Indicator" repeat ="1" optional="O" dataType="ID" length="1" sequence="4" tableNumber="0136"></Field>
+  <Field name="Disability Start Date" repeat ="1" optional="O" dataType="DT" length="8" sequence="5"></Field>
+  <Field name="Disability End Date" repeat ="1" optional="O" dataType="DT" length="8" sequence="6"></Field>
+  <Field name="Disability Return to Work Date" repeat ="1" optional="O" dataType="DT" length="8" sequence="7"></Field>
+  <Field name="Disability Unable to Work Date" repeat ="1" optional="O" dataType="DT" length="8" sequence="8"></Field>
+</Segment>

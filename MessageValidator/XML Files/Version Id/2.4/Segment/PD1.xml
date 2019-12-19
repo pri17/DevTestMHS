@@ -1,0 +1,134 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Segment name="PD1" repeat="1" optional="O">
+  <Field name="Living Dependency" repeat ="*" optional="O" dataType="IS" length="2" sequence="1" tableNumber="0223"></Field>
+  <Field name="Living Arrangement" repeat ="1" optional="O" dataType="IS" length="2" sequence="2" tableNumber="0220"></Field>
+  <Field name="Patient Primary Facility" repeat ="*" optional="O" length="250" sequence="3">
+    <Component name="Organization Name" sequence="1" length="0" dataType="ST" optional="O" ></Component>
+    <Component name="Organization Name Type Code" sequence="2" length="0" dataType="IS" optional="O" ></Component>
+    <Component name="Id Number" sequence="3" length="0" dataType="NM" optional="O" ></Component>
+    <Component name="Check Digit" sequence="4" length="0" dataType="ST" optional="O" ></Component>
+    <Component name="Code Identifying The check Digit Scheme Employed" sequence="5" length="0" dataType="ID" optional="O" ></Component>
+    <Component name="Assigning Authority" sequence="6" length="0" optional="O" >
+      <Component name="Namespace Id" sequence="1" length="0" dataType="IS" optional="O" tableNumber="0300"></Component>
+      <Component name="Universal Id" sequence="2" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Universal Id Type" sequence="3" length="0" dataType="ID" optional="O" tableNumber="0301"></Component>
+    </Component>
+    <Component name="Identifier Type Code" sequence="7" length="0" dataType="IS" optional="O" ></Component>
+    <Component name="Assigning Fcility Id" sequence="8" length="0" optional="O" >
+      <Component name="Namespace Id" sequence="1" length="0" dataType="IS" optional="O" tableNumber="0300"></Component>
+      <Component name="Universal Id" sequence="2" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Universal Id Type" sequence="3" length="0" dataType="ID" optional="O" tableNumber="0301"></Component>
+    </Component>
+    <Component name="Name Representation Code" sequence="9" length="0" dataType="ID" optional="O" ></Component>
+  </Field>
+  <Field name="Patient Primary Care Provider Name and ID No." repeat ="*" optional="B" length="250" sequence="4">
+    <Component name="Id Number" sequence="1" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Family Name" sequence="2" length="0" optional="O">
+      <Component  name="Surname" dataType="ST" length="0" optional="O" sequence="1" tableNumber="LastName"></Component>
+      <Component  name="Own Surname Prefix" dataType="ST" length="0" optional="O" sequence="2"></Component>
+      <Component  name="Own Surname" dataType="ST" length="0" optional="O" sequence="3"></Component>
+      <Component  name="Surname Prefix From Partner/Spouse" dataType="ST" length="0" optional="O" sequence="4"></Component>
+      <Component  name="Surname From Partner/Spouse" dataType="ST" length="0" optional="O" sequence="5"></Component>
+    </Component>
+    <Component name="Given Name" sequence="3" length="0" dataType="ST" optional="O" tableNumber="FirstName"></Component>
+    <Component name="Second And Further Given Names Or Initials Thereof" sequence="4" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Suffix" sequence="5" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Prefix" sequence="6" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Degree" sequence="7" length="0" dataType="IS" optional="O"></Component>
+    <Component name="Source Table" sequence="8" length="0" dataType="IS" optional="O"></Component>
+    <Component name="Assigning Authority" sequence="9" length="0" optional="O">
+      <Component name="Namespace Id" sequence="1" length="0" dataType="IS" optional="O" tableNumber="0300"></Component>
+      <Component name="Universal Id" sequence="2" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Universal Id Type" sequence="3" length="0" dataType="ID" optional="O" tableNumber="0301"></Component>
+    </Component>
+    <Component name="Name Type Code" sequence="10" length="0" dataType="ID" optional="O"></Component>
+    <Component name="Identifier Check Digit" sequence="11" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Code Identifying The Check Digit Scheme Employed" sequence="12" length="0" dataType="ID" optional="O"></Component>
+    <Component name="Identifier Type Code" sequence="13" length="0" dataType="IS" optional="O"></Component>
+    <Component name="Assigning Facility" sequence="14" length="0" optional="O">
+      <Component name="Namespace Id" sequence="1" length="0" dataType="IS" optional="O" tableNumber="0300"></Component>
+      <Component name="Universal Id" sequence="2" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Universal Id Type" sequence="3" length="0" dataType="ID" optional="O" tableNumber="0301"></Component>
+    </Component>
+    <Component name="Name Representation Code" sequence="15" length="0" dataType="ID" optional="O"></Component>
+    <Component name="Name Context" sequence="16" length="0" optional="O">
+      <Component name="Identifier" sequence="1" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Text" sequence="2" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Name Of Coding System" sequence="3" length="0" dataType="IS" optional="O"></Component>
+      <Component name="Alternate Identifier" sequence="4" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Alternate Text" sequence="5" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Name Of Alternate Coding System" sequence="6" length="0" dataType="IS" optional="O"></Component>
+    </Component>
+    <Component name="Name Validity Range" sequence="17" length="0" optional="O">
+      <Component name="Range Start Date/Time" sequence="1" length="0" dataType="DTM" optional="O"></Component>
+      <Component name="Range End Date/Time" sequence="2" length="0" dataType="DTM" optional="O"></Component>
+    </Component>
+    <Component name="Name Assembly Order" sequence="18" length="0" dataType="ID" optional="O"></Component>
+  </Field>
+  <Field name="Student Indcator" repeat ="1" optional="O" dataType="IS" length="2" sequence="5" tableNumber="0231"></Field>
+  <Field name="Handicap" repeat ="1" optional="O" dataType="IS" length="2" sequence="6" tableNumber="0295"></Field>
+  <Field name="Living Will Code" repeat ="1" optional="O" dataType="IS" length="2" sequence="7" tableNumber="0315"></Field>
+  <Field name="Organ Donor Code" repeat ="1" optional="O" dataType="IS" length="2" sequence="8" tableNumber="0316"></Field>
+  <Field name="Separate Patient" repeat ="1" optional="O" dataType="ID" length="1" sequence="9" tableNumber="0136"></Field>
+  <Field name="Duplicate Patient" repeat ="*" optional="O" length="250" sequence="10">
+    <Component name="Id" sequence="1" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Check Digit" sequence="2" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Code Identifying The Check Digit Scheme Employed" sequence="3" length="0" dataType="ID" optional="O"></Component>
+    <Component name="Assigning Authority" sequence="4" length="0" optional="O">
+      <Component name="Namespace Id" sequence="1" length="0" dataType="IS" optional="O" tableNumber="0300"></Component>
+      <Component name="Universal Id" sequence="2" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Universal Id Type" sequence="3" length="0" dataType="ID" optional="O" tableNumber="0301"></Component>
+    </Component>
+    <Component name="Identifier Type Code" sequence="5" length="0" dataType="ID" optional="O" tableNumber="0203"></Component>
+    <Component name="Assigning Facility" sequence="6" length="0" optional="O">
+      <Component name="Namespace Id" sequence="1" length="0" dataType="IS" optional="O" tableNumber="0300"></Component>
+      <Component name="Universal Id" sequence="2" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Universal Id Type" sequence="3" length="0" dataType="ID" optional="O" tableNumber="0301"></Component>
+    </Component>
+    <Component name="Effective Date" sequence="7" length="0" dataType="DT" optional="O"></Component>
+    <Component name="Expriation Date" sequence="8" length="0" dataType="DT" optional="O"></Component>
+  </Field>
+  <Field name="Pubilicty Code" repeat ="1" optional="O" length="250" sequence="11" tableNumber="0215">
+    <Component name="Identifier" sequence="1" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Text" sequence="2" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Coding System" sequence="3" length="0" dataType="IS" optional="O"></Component>
+    <Component name="Alternate Identifier" sequence="4" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Alternate Text" sequence="5" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Alternate Coding System" sequence="6" length="0" dataType="IS" optional="O"></Component>
+  </Field>
+  <Field name="Protection Indicator" repeat ="1" optional="O" dataType="ID" length="1" sequence="12" tableNumber="0136"></Field>
+  <Field name="Protection Indcator Effective Date" repeat ="1" optional="O" dataType="DT" length="8" sequence="13"></Field>
+  <Field name="Place Of Worship" repeat ="*" optional="O" length="250" sequence="14">
+    <Component name="Organization Name" sequence="1" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Organization Name Type Code" sequence="2" length="0" dataType="IS" optional="O" ></Component>
+    <Component name="Id Number" sequence="3" length="0" dataType="NM" optional="O" ></Component>
+    <Component name="Check Digit" sequence="4" length="0" dataType="ST" optional="O" ></Component>
+    <Component name="Code Identifying The check Digit Scheme Employed" sequence="5" length="0" dataType="ID" optional="O" tableNumber="0203"></Component>
+    <Component name="Assigning Authority" sequence="6" length="0" optional="O" >
+      <Component name="Namespace Id" sequence="1" length="0" dataType="IS" optional="O" tableNumber="0300"></Component>
+      <Component name="Universal Id" sequence="2" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Universal Id Type" sequence="3" length="0" dataType="ID" optional="O" tableNumber="0301"></Component>
+    </Component>
+    <Component name="Identifier Type Code" sequence="7" length="0" dataType="IS" optional="O" ></Component>
+    <Component name="Assigning Fcility Id" sequence="8" length="0"  optional="O" >
+      <Component name="Namespace Id" sequence="1" length="0" dataType="IS" optional="O" tableNumber="0300"></Component>
+      <Component name="Universal Id" sequence="2" length="0" dataType="ST" optional="O"></Component>
+      <Component name="Universal Id Type" sequence="3" length="0" dataType="ID" optional="O" tableNumber="0301"></Component>
+    </Component>
+    <Component name="Name Representation Code" sequence="9" length="0" dataType="ID" optional="O"></Component>
+  </Field>
+  <Field name="Advance Directive Code" repeat ="*" optional="O"  length="250" sequence="15" tableNumber="0435">
+    <Component name="Identifier" sequence="1" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Text" sequence="2" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Coding System" sequence="3" length="0" dataType="IS" optional="O"></Component>
+    <Component name="Alternate Identifier" sequence="4" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Alternate Text" sequence="5" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Name Of Alternate Coding System" sequence="6" length="0" dataType="IS" optional="O"></Component>
+  </Field>
+  <Field name="Immunization Resitry Status" repeat ="1" optional="O" dataType="IS" length="1" sequence="16" tableNumber="0441"></Field>
+  <Field name="Immunization Registry Status Effective Date" repeat ="1" optional="O" dataType="DT" length="8" sequence="17"></Field>
+  <Field name="Publicity Code Effective Date" repeat ="1" optional="O" dataType="DT" length="8" sequence="18"></Field>
+  <Field name="Militray Branch" repeat ="1" optional="O" dataType="IS" length="5" sequence="19" tableNumber="0140"></Field>
+  <Field name="Military Rank/Grade" repeat ="1" optional="O" dataType="IS" length="2" sequence="20" tableNumber="0141"></Field>
+  <Field name="Miliary Status" repeat ="1" optional="O" dataType="IS" length="3" sequence="21" tableNumber="0142"></Field> 
+</Segment>

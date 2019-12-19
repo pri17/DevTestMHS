@@ -1,0 +1,73 @@
+﻿<Segment name="MSH" repeat="1" optional="R">
+  <Field name="Field Separator" repeat="1" optional="R" dataType="ST" length="1" sequence="1"></Field>
+  <Field name="Encoding Characters" repeat="1" optional="R" dataType="ST" length="4" sequence="2"></Field>
+  <Field name="Sending Application" repeat="1" optional="O" length="180" sequence="3" tableNumber ="0361">
+    <Component name="Namespace Id" sequence="1" length="0" dataType="IS" optional="O" tableNumber="0300"></Component>
+    <Component name="Universal Id" sequence="2" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Universal Id Type" sequence="3" length="0" dataType="ID" optional="O" tableNumber="0301"></Component>
+  </Field>
+  <Field name="Sending Facilty" repeat="1" optional="O"  length="180" sequence="4" tableNumber ="0362">
+    <Component name="Namespace Id" sequence="1" length="0" dataType="IS" optional="O" tableNumber="0300"></Component>
+    <Component name="Universal Id" sequence="2" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Universal Id Type" sequence="3" length="0" dataType="ID" optional="O"></Component>
+  </Field>
+  <Field name="Recieving Application" repeat="1" optional="O"  length="180" sequence="5" tableNumber ="0361">
+    <Component name="Namespace Id" sequence="1" length="0" dataType="IS" optional="O" tableNumber="0300"></Component>
+    <Component name="Universal Id" sequence="2" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Universal Id Type" sequence="3" length="0" dataType="ID" optional="O" tableNumber="0301"></Component>
+  </Field>
+  <Field name="Recieving Facilty" repeat="1" optional="O"  length="180" sequence="6" tableNumber ="0362">
+    <Component name="Namespace Id" sequence="1" length="0" dataType="IS" optional="O" tableNumber="0300"></Component>
+    <Component name="Universal Id" sequence="2" length="0" dataType="ST" optional="O"></Component>
+    <Component name="Universal Id Type" sequence="3" length="0" dataType="ID" optional="O" tableNumber="0301"></Component>
+  </Field>
+  <Field name="Date/Time Of Message" repeat="1" length="26" optional="R" sequence="7">
+    <Component name="Time Of An Event" length="0" dataType="TS" optional="O" sequence="1" />
+  </Field>
+  <Field name="Security" repeat="1" dataType="ST" length="40" optional="O" sequence="8"></Field>
+  <Field name="Message Type" repeat="1" length="15" optional="R" sequence="9">
+    <Component name="Message Type" dataType="ID" optional="O" length="0" sequence="1"/>
+    <Component name="Trigger Event" dataType="ID" optional="O" length="0" sequence="2"/>
+    <Component name="Message Structure" dataType="ID" optional="O" length="0" sequence="3"/>
+  </Field>
+  <Field name="Message Control ID" dataType="ST" length="20" optional="R" repeat="1" sequence="10"></Field>
+  <Field name="Processing ID" length="3" optional="R" repeat="1" sequence="11">
+    <Component name="Processing Id" optional="O" dataType="ID" length="0" sequence="1" />
+    <Component name="Processing Mode" optional="O" dataType="ID" length="0" sequence="2" />
+  </Field>
+  <Field name="Version ID" length="60" optional="R" repeat="1" sequence="12">
+    <Component name="Version Id" dataType="ID" length="0" optional="O" sequence="1" tableNumber="0104"></Component>
+    <Component name="Internationalization Code"  length="0" optional="O" sequence="2">
+      <Component name="Identifier" dataType="ST" length="0" optional="O" sequence="1"></Component>
+      <Component name="Text" dataType="ST" length="0" optional="O" sequence="2"></Component>
+      <Component name="Name Of Coding System" dataType="IS" length="0" optional="O" sequence="3"></Component>
+      <Component name="Alternate Identifier" dataType="ST" length="0" optional="O" sequence="4"></Component>
+      <Component name="Alternate Text" dataType="ST" length="0" optional="O" sequence="5"></Component>
+      <Component name="Name Of Alternate Coding System" dataType="ST" length="0" optional="O" sequence="6"></Component>
+    </Component>
+    <Component name="International Version Id"  length="0" optional="O" sequence="3">
+      <Component name="Identifier" dataType="ST" length="0" optional="O" sequence="1"></Component>
+      <Component name="Text" dataType="ST" length="0" optional="O" sequence="2"></Component>
+      <Component name="Name Of Coding System" dataType="IS" length="0" optional="O" sequence="3"></Component>
+      <Component name="Alternate Identifier" dataType="ST" length="0" optional="O" sequence="4"></Component>
+      <Component name="Alternate Text" dataType="ST" length="0" optional="O" sequence="5"></Component>
+      <Component name="Name Of Alternate Coding System" dataType="ST" length="0" optional="O" sequence="6"></Component>
+    </Component>
+  </Field>
+  <Field name="Sequence Number" dataType="NM" length="15" optional="O" repeat="1" sequence="13"></Field>
+  <Field name="Continuation Pointer" dataType="ST" length="180" optional="O" repeat="1" sequence="14"></Field>
+  <Field name="Accept Acknowledgment Type" dataType="ID" length="2" optional="O" repeat="1" sequence="15" tableNumber="0155"></Field>
+  <Field name="Application  Acknowledgment Type" dataType="ID" length="2" optional="O" repeat="1" sequence="16" tableNumber="0155"></Field>
+  <Field name="Country Code" dataType="ID" length="3" optional="O" repeat="1" sequence="17" tableNumber="0399"></Field>
+  <Field name="Character Set" dataType="ID" length="16" optional="O" repeat="*" sequence="18" tableNumber="0211"></Field>
+  <Field name="Principal Language Of Message" length="250" optional="O" repeat="1" sequence="19">
+    <Component name="Identifier" dataType="ST" length="0" optional="O" sequence="1"></Component>
+    <Component name="Text" dataType="ST" length="0" optional="O" sequence="2"></Component>
+    <Component name="Name Of Coding System" dataType="IS" length="0" optional="O" sequence="3"></Component>
+    <Component name="Alternate Identifier" dataType="ST" length="0" optional="O" sequence="4"></Component>
+    <Component name="Alternate Text" dataType="ST" length="0" optional="O" sequence="5"></Component>
+    <Component name="Name Of Alternate Coding System" dataType="ST" length="0" optional="O" sequence="6"></Component>
+  </Field>
+  <Field name="Alternate Character Set Handling Scheme" dataType="ID" length="20" optional="O" repeat="1" sequence="20" tableNumber="0356"></Field>
+  <Field name="Conformance Statement ID" dataType="ID" length="10" optional="O" repeat="*" sequence="21" tableNumber="0449"></Field>
+</Segment>
